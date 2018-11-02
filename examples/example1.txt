@@ -1,5 +1,5 @@
 NumLines=3;
 MaxColumns=3;
 Blocks=A.B.C.D.E.F;
-InitialState=AtDock(A).AtDock(B).AtDock(C).AtDock(D).AtDock(E).AtDock(F).First(B).First(D).First(A).NextTo(C,B).NextTo(E,D).NextTo(F,E).FullLine(D);
-GoalState=AtFerry(A).AtFerry(B).AtFerry(C).AtFerry(D).AtFerry(E).AtFerry(F).First(B).First(F).NextTo(D,B).NextTo(A,D).NextTo(E,F).NextTo(C,E);
+InitialState=FirstDock(B).FirstDock(D).FirstDock(A).NextToDock(C,B).NextToDock(E,D).NextToDock(F,E).FreeLine(A).FreeLine(B).LastDock(C).LastDock(F).LastDock(A);
+GoalState=FirstFerry(B).FirstFerry(F).NextToFerry(D,B).NextToFerry(A,D).NextToFerry(E,F).NextToFerry(C,E).LastFerry(A).LastFerry(C);

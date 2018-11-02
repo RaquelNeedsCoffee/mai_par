@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 public class PlannerIOHelper {
 
-	public static State[] parseInputFile(String inputFilename) {
+	public static State parseInputFile_GetInitialState(String inputFilename) {
 		
 		//Create Scanner object in order to read the contents of inputFilename
 		Scanner s = null;
@@ -57,23 +57,34 @@ public class PlannerIOHelper {
 			initialState.initializeState(steps);
 		}
 		
-		//Goal State
-		State goalState = new State(numLines,maxColumns);
+		//Return initial states
+		return initialState;
+	}
+	
+	public static GoalStack parseInputFile_GetInitialGoalStack(String inputFilename) {
+		//Create Scanner object in order to read the contents of inputFilename
+		Scanner s = null;
+		try {
+			s = new Scanner(new File(inputFilename));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		//Create a list (ArrayList<String>) of containing the lines of the input file.
+		ArrayList<String> inputList = new ArrayList<String>();
+		while (s.hasNext()){
+		    inputList.add(s.next());
+		}
+		s.close();
+		
+		//Goal Stack
 		Matcher matcherGoalState = Pattern.compile("GoalState=(.*);").matcher(inputList.get(4));
 		if (matcherGoalState.find()) {
 			String[] steps = matcherGoalState.group(1).split("\\.");
 			goalState.initializeState(steps);
 		}
-		
-		//Return initial and goal states
-		State[] twoStates = new State[2]; 
-		twoStates[0] = initialState;
-		twoStates[1] = goalState;
-		return twoStates;
 	}
 	
-	public static void writeOutputFile(State s) {
-		//TODO
-	}
 	
 }

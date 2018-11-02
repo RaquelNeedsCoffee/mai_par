@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 
 public class CarTransportPlanning {
@@ -10,14 +11,16 @@ public class CarTransportPlanning {
 			System.out.println("ERROR: Incorrect number of arguments.\nUsage: java CarTransportPlanning inputFilename outputFilename");
 			return;
 		}
+//		ArrayList<String> a = new ArrayList<String>();
+//		a.add("ei");
+//		a.add("hola");
+//		String s = a.get(0);
+//		s = "manel";
+//		System.out.println(a.get(0));
 		//Get initial and goal states from input file
-		ArrayList<String>[] r = PlannerIOHelper.parseInputFile(args[0]);
-		ArrayList<String> initial_predicates = r[0];
+		State state = PlannerIOHelper.getInitialState(args[0]);
+		GoalStack goalStack = PlannerIOHelper.getInitialGoalStack(args[0]);
 		
-		ArrayList<String> final_predicates = r[1];
-
-		
-		GoalStack goalStack = new GoalStack();
 		while(!goalStack.empty()) {
 			StackElement e = goalStack.pop();
 			if (e.isOperator()) {
@@ -42,8 +45,10 @@ public class CarTransportPlanning {
 	}
 
 	
-	private static StackElement getOperatorWithConditionInAddList(StackElement e) {
-		// TODO Auto-generated method stub
+	private static StackElement getOperatorWithConditionInAddList(StackElement condition) {
+		if (condition.getName().equals("FirstFerry")) {
+			
+		}
 		return null;
 	}
 

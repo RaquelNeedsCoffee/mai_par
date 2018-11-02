@@ -9,7 +9,7 @@ public class Operators {
 		args.add(x);
 		StackElement e = new StackElement("operator","BoardFirst1",args);
 		ArrayList<StackElement> preconditions;
-		preconditions = new ArrayList()
+		preconditions = new ArrayList();
 	}
 	
 	private static void getOperatorWithConditionInAddList(StackElement e) {

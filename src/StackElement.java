@@ -13,6 +13,9 @@ public class StackElement {
 		this.type = type;
 		this.name = name;
 		this.args = args;
+		this.preconditions = null;
+		this.addList = null;
+		this.deleteList = null;
 	}
 
 	public boolean isOperator() {
@@ -42,27 +45,30 @@ public class StackElement {
 
 	public String getType() {
 		// TODO Auto-generated method stub
-		return null;
+		return type;
 	}
 	
 	public String getName() {
 		// TODO Auto-generated method stub
-		return null;
+		return name;
 	}
 
 	public ArrayList<String> getArgs() {
 		// TODO Auto-generated method stub
-		return null;
+		return args;
 	}
 	
 	//only for conditions
-	public boolean equals(StackElement e) {
+	@Override
+	public boolean equals(Object o) {
+		if (!(o instanceof StackElement)) return false;
+        StackElement e = (StackElement) o;
 		if (!type.equals(e.getType())) return false;
-		if (!type.equals(e.getName())) return false;
+		if (!name.equals(e.getName())) return false;
 		ArrayList<String> args2 = e.getArgs();
 		if (args.size() != args2.size()) return false;
 		for (int i = 0; i < args.size(); ++i) {
-			if (args.get(i).equals(args2.get(i))) return false;
+			if (!args.get(i).equals(args2.get(i))) return false;
 		}
 		return true;
 	}

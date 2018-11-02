@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 public class PlannerIOHelper {
 
-	public static State parseInputFile_GetInitialState(String inputFilename) {
+	public static State getInitialState(String inputFilename) {
 		
 		//Create Scanner object in order to read the contents of inputFilename
 		Scanner s = null;
@@ -47,10 +47,18 @@ public class PlannerIOHelper {
 		}
 		
 		//Blocks
+		String[] blocks = null;
 		//TODO: Question: can this input line be ignored?
+		Matcher matcherBlocks = Pattern.compile("Blocks=(.*);").matcher(inputList.get(2));
+		if (matcherBlocks.find()) {
+			blocks = matcherBlocks.group(1).split("\\.");
+		}
+		else {
+			throw new RuntimeException("Incorrect input file. Blocks not found");
+		}
 		
 		//Initial State
-		State initialState = new State(numLines,maxColumns);
+		State initialState = new State(numLines,maxColumns,blocks);
 		Matcher matcherInitialState = Pattern.compile("InitialState=(.*);").matcher(inputList.get(3));
 		if (matcherInitialState.find()) {
 			String[] steps = matcherInitialState.group(1).split("\\.");
@@ -61,7 +69,7 @@ public class PlannerIOHelper {
 		return initialState;
 	}
 	
-	public static GoalStack parseInputFile_GetInitialGoalStack(String inputFilename) {
+	public static GoalStack getInitialGoalStack(String inputFilename) {
 		//Create Scanner object in order to read the contents of inputFilename
 		Scanner s = null;
 		try {
@@ -79,11 +87,13 @@ public class PlannerIOHelper {
 		s.close();
 		
 		//Goal Stack
+		GoalStack goalStack = new GoalStack();
 		Matcher matcherGoalState = Pattern.compile("GoalState=(.*);").matcher(inputList.get(4));
 		if (matcherGoalState.find()) {
 			String[] steps = matcherGoalState.group(1).split("\\.");
-			goalState.initializeState(steps);
+			goalStack.initializeStack(steps);
 		}
+		return goalStack;
 	}
 	
 	

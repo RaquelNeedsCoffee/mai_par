@@ -1,19 +1,23 @@
+import java.util.LinkedList;
+
 
 public class GoalStack {
 
-	
-	
-	
+	LinkedList<StackElement> stack;
 	
 	public boolean empty() {
-		return false;
+		return stack.isEmpty();
 	}
 	
 	public StackElement pop() {
-		return null;
+		return stack.removeFirst();
 	}
 
-	public void push(StackElement stackElement) {
+	public void push(StackElement e) {
+		stack.addFirst(e);
+	}
+
+	public void initializeStack(String[] steps) {
 		// TODO Auto-generated method stub
 		
 	}

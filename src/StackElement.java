@@ -58,6 +58,18 @@ public class StackElement {
 		return args;
 	}
 	
+	public void setPreconditions(ArrayList<StackElement> preconditions) {
+		this.preconditions = preconditions;
+	}
+
+	public void setAddList(ArrayList<StackElement> addList) {
+		this.addList = addList;
+	}
+
+	public void setDeleteList(ArrayList<StackElement> deleteList) {
+		this.deleteList = deleteList;
+	}
+	
 	//only for conditions
 	@Override
 	public boolean equals(Object o) {
@@ -72,5 +84,4 @@ public class StackElement {
 		}
 		return true;
 	}
-	
 }

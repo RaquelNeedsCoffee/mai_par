@@ -73,6 +73,15 @@ public class State {
 		
 	}
 
+	public StackElement instantiateOperator(StackElement operator) {
+		//1. take args that are null, and try possible combinations (check if the resulting preconditions 
+		//are satisifed by the state.
+		
+		//2. Return the instantiated operator.
+		
+		return null;
+	}
+	
 	public boolean satisfies(StackElement e) {
 		String condition = e.getName();
 		ArrayList<String> args = e.getArgs();
@@ -106,6 +115,7 @@ public class State {
 		return (numCarsLine < maxColumns);
 	}
 	
+	
 	//returns the block (car) that is after c if it exists. Returns null otherwise
 	private String instantiateNextToDock(String c) {
 		for (StackElement e: predicates) {
@@ -115,6 +125,7 @@ public class State {
 		}
 		return null;
 	}
+
 
 
 }

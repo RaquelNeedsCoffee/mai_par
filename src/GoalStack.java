@@ -18,7 +18,6 @@ public class GoalStack {
 	}
 
 	public void initializeStack(String[] steps) {
-		// TODO Auto-generated method stub
 		
 	}
 	

@@ -50,6 +50,10 @@ public class StackElement {
 		return args;
 	}
 	
+	public void setArgs(ArrayList<String> args) {
+		this.args = args;
+	}
+	
 	public void setPreconditions(ArrayList<StackElement> preconditions) {
 		this.preconditions = preconditions;
 	}
@@ -60,6 +64,17 @@ public class StackElement {
 
 	public void setDeleteList(ArrayList<StackElement> deleteList) {
 		this.deleteList = deleteList;
+	}
+	
+	public String toString() {
+		return name + "(" + String.join(",", args) + ")";
+	}
+	
+	public boolean isInstantiated() {
+		for (int i = 0; i < args.size(); ++i) {
+			if (args.get(i) == null) return false;
+		}
+		return true;
 	}
 	
 	//only for conditions
@@ -76,4 +91,7 @@ public class StackElement {
 		}
 		return true;
 	}
+	
+
+
 }

@@ -114,13 +114,14 @@ public class Operators {
 		return e;
 	}
 	
+	//TODO: NOT FINISHED
 	public static StackElement ChangeLine1(String x, String z) {
 		//Arguments
 		ArrayList<String> args = new ArrayList<String>();
 		args.add(x);
 		args.add(z);
 		//initialize Stack Element
-		StackElement e = new StackElement("operator","BoardNextTo2",args);
+		StackElement e = new StackElement("operator","ChangeLine",args);
 		//preconditions
 		ArrayList<StackElement> preconditions = new ArrayList<StackElement>();
 		preconditions.add(Conditions.FirstDock(x));

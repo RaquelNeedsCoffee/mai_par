@@ -102,8 +102,10 @@ public class PlannerIOHelper {
 		FileWriter fw = null;
 		try 
 		{
-			
 			fw = new FileWriter(outputFilename);
+			//write number of operators
+			fw.write(plan.size() + "\n");
+			//write plan (sequence of operators)
 			String s = "";
 			for (int i = 0; i < plan.size(); i++) {
 				StackElement op = plan.get(i);
@@ -121,7 +123,7 @@ public class PlannerIOHelper {
 		{
 			e.printStackTrace();
 		}
-		
+		System.out.println("Successfully written output file.");
 	}
 	
 	

@@ -10,15 +10,15 @@ public class CarTransportPlanning {
 			System.out.println("ERROR: Incorrect number of arguments.\nUsage: java CarTransportPlanning inputFilename outputFilename");
 			return;
 		}
-		/*
+		/**
 		ArrayList<String> a = new ArrayList<String>();
 		a.add("ei");
-		a.add("hola");
+		a.add(null);
 		a.add("au");
 		System.out.println(String.join(",", a));
 		int b = 4;
 		System.out.println(b == 4);
-		*/
+		**/
 		//Get initial and goal states from input file
 		State state = PlannerIOHelper.getInitialState(args[0]);
 		GoalStack goalStack = PlannerIOHelper.getInitialGoalStack(args[0]);
@@ -31,14 +31,16 @@ public class CarTransportPlanning {
 			}
 			StackElement e = goalStack.pop();
 			if (e.isOperator()) {
-				System.out.println("TOP OF THE STACK: Operator " + e.getName());
 				state.applyOperator(e);
+				System.out.println("APPLY OPERATOR TO STATE: Operator " + e.toString());
 				plan.add(e);
 			}
 			else if (e.isCondition()) {
 				//If state satisfies the condition, we don't do anything
 				//If it doesn't, we look for an operator that has the condition in the AddList
+				System.out.println("Checking if satisfies: " + e.toString() + "...");
 				if (!state.satisfies(e)) {
+					System.out.println("Condition NOT satisfied.");
 					StackElement operator = getOperatorWithConditionInAddList(state,e);
 					goalStack.push(operator);
 					ArrayList<StackElement> preconditions = operator.getPreconditions();
@@ -47,13 +49,16 @@ public class CarTransportPlanning {
 						goalStack.push(preconditions.get(i));
 					}
 				}
+				else {
+					System.out.println("Condition satisfied.");
+				}
 			}
 			else {
 				System.out.println(e.getType());
-				throw new RuntimeException("Stack element type not recognized");
+				throw new RuntimeException("Stack element type not recognized.");
 			}
 		}
-		System.out.println("Algorithm has finished! Found plan with " + plan.size() + " operators");
+		System.out.println("Algorithm has finished! Found plan with " + plan.size() + " operators.");
 		PlannerIOHelper.outputFinalPlan(plan,args[1]);
 		
 	}
@@ -86,6 +91,7 @@ public class CarTransportPlanning {
 				operator = Operators.BoardFirst1(x);
 			}
 			else {
+				
 				operator = Operators.BoardFirst2(x,null);
 			}
 		}
@@ -98,20 +104,20 @@ public class CarTransportPlanning {
 				operator = Operators.BoardNextTo2(x,null,y);
 			}
 		}
-		//case LastFerry(X)
-		//Will it be necessary to select an operator when LastFerry(X) is at the top?
+		/**
 		else if (name.equals("LastFerry")) {
 			//TODO: Is this necessary?
 			System.out.println("Last Ferry on top of the stack");
 		}
 		else if (name.equals("FirstDock")) {
 		}
-		
-		System.out.println("Selecting operator: " + operator.getName());
-		
+		**/
+		System.out.println("PUSH OPERATOR TO STACK: " + operator.toString());
 		return operator;
+		
 		//at the end instantiate operator
 		//StackElement instantiatedOperator = state.instantiateOperator(operator);
+		//System.out.println("PUSH OPERATOR TO STACK: " + instantiatedOperator.toString());
 		//return instantiatedOperator;
 	}
 

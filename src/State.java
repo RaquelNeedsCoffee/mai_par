@@ -72,18 +72,41 @@ public class State {
 		}
 		
 	}
-
+	
+	/**
+	//make it recursive. Try all combinations on non-instantiated variables
 	public StackElement instantiateOperator(StackElement operator) {
-		//1. take args that are null, and try possible combinations (check if the resulting preconditions 
-		//are satisifed by the state.
-		
-		//2. Return the instantiated operator.
-		
+		//Base case: If it is instantiated -> if satisfied return the operator, if not return null
+		if (operator.isInstantiated()) {
+			if (satisfied_preconditions(operator)) return operator;
+			else return null;
+		}
+		ArrayList<String> args = operator.getArgs();
+		//select first non-instantiated variable index (those with value null)
+		//If we get here we are sure that there is at least one non instantiated variable
+		int null_index = 0;
+		for (int i = 0; i < args.size(); ++i) {
+			if (args.get(i) == null) null_index = i;
+		}
+		//Try all combinations of blocks for that variable
+		for (int j = 0; j < blocks.length; ++j) {
+			args.set(null_index, blocks[j]);
+			operator.setArgs(args);
+			StackElement result = instantiateOperator(operator);
+			if (result != null) return result;
+		}
 		return null;
 	}
 	
+	private boolean satisfied_preconditions(StackElement operator) {
+		ArrayList<StackElement> preconditions = operator.getPreconditions();
+		for (int i = 0; i < preconditions.size(); ++i) {
+			if (!satisfies(preconditions.get(i))) return false; 
+		}
+		return true;
+	}
+	**/
 	public boolean satisfies(StackElement e) {
-		System.out.println("Checking if satisfies: " + e.getName());
 		String condition = e.getName();
 		ArrayList<String> args = e.getArgs();
 		if (condition.equals("FreeLine")) {

@@ -49,6 +49,7 @@ public class Operators {
 		ArrayList<StackElement> addList = new ArrayList<StackElement>();
 		addList.add(Conditions.FirstFerry(x));
 		addList.add(Conditions.LastFerry(x));
+		addList.add(Conditions.FirstDock(y));
 		e.setAddList(addList);
 		//Delete List
 		ArrayList<StackElement> deleteList = new ArrayList<StackElement>();
@@ -139,5 +140,14 @@ public class Operators {
 		deleteList.add(Conditions.FirstDock(z));
 		e.setDeleteList(deleteList);
 		return e;
+	}
+	
+	public static StackElement getOperator(String name, ArrayList<String> args) {
+		if (name.equals("BoardFirst1")) return BoardFirst1(args.get(0));
+		else if (name.equals("BoardFirst2")) return BoardFirst2(args.get(0),args.get(1));
+		else if (name.equals("BoardNextTo1")) return BoardNextTo1(args.get(0),args.get(1));
+		else if (name.equals("BoardNextTo2")) return BoardNextTo2(args.get(0),args.get(1),args.get(2));
+		else if (name.equals("ChangeLine1")) return ChangeLine1(args.get(0),args.get(1));
+		else return null;
 	}
 }

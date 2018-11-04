@@ -73,13 +73,14 @@ public class State {
 		
 	}
 	
-	/**
 	//make it recursive. Try all combinations on non-instantiated variables
 	public StackElement instantiateOperator(StackElement operator) {
 		//Base case: If it is instantiated -> if satisfied return the operator, if not return null
 		if (operator.isInstantiated()) {
 			if (satisfied_preconditions(operator)) return operator;
-			else return null;
+			else {
+				return null;
+			}
 		}
 		ArrayList<String> args = operator.getArgs();
 		//select first non-instantiated variable index (those with value null)
@@ -91,8 +92,7 @@ public class State {
 		//Try all combinations of blocks for that variable
 		for (int j = 0; j < blocks.length; ++j) {
 			args.set(null_index, blocks[j]);
-			operator.setArgs(args);
-			StackElement result = instantiateOperator(operator);
+			StackElement result = instantiateOperator(Operators.getOperator(operator.getName(), args));
 			if (result != null) return result;
 		}
 		return null;
@@ -101,11 +101,13 @@ public class State {
 	private boolean satisfied_preconditions(StackElement operator) {
 		ArrayList<StackElement> preconditions = operator.getPreconditions();
 		for (int i = 0; i < preconditions.size(); ++i) {
-			if (!satisfies(preconditions.get(i))) return false; 
+			if (!satisfies(preconditions.get(i))) {
+				return false; 
+			}
 		}
 		return true;
 	}
-	**/
+	
 	public boolean satisfies(StackElement e) {
 		String condition = e.getName();
 		ArrayList<String> args = e.getArgs();

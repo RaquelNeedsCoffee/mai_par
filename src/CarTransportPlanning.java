@@ -25,20 +25,20 @@ public class CarTransportPlanning {
 		ArrayList<StackElement> plan = new ArrayList<StackElement>();
 		while(!goalStack.empty()) {
 			//Prevent infinite recursion
-			if (goalStack.size() > 10000) {
-				System.out.println("Possible goal stack overflow (more than 10000 elements). Execution stopped.");
+			if (goalStack.size() > 1000) {
+				System.out.println("Possible goal stack overflow (more than 1000 elements). Execution stopped.");
 				break;
 			}
 			StackElement e = goalStack.pop();
 			if (e.isOperator()) {
 				state.applyOperator(e);
-				System.out.println("APPLY OPERATOR TO STATE: Operator " + e.toString());
+				System.out.println("[STACK] APPLY OPERATOR TO STATE: Operator " + e.toString());
 				plan.add(e);
 			}
 			else if (e.isCondition()) {
 				//If state satisfies the condition, we don't do anything
 				//If it doesn't, we look for an operator that has the condition in the AddList
-				System.out.println("Checking if satisfies: " + e.toString() + "...");
+				System.out.println("[STACK] CHECK CONDITION: " + e.toString());
 				if (!state.satisfies(e)) {
 					System.out.println("Condition NOT satisfied.");
 					StackElement operator = getOperatorWithConditionInAddList(state,e);
@@ -91,7 +91,6 @@ public class CarTransportPlanning {
 				operator = Operators.BoardFirst1(x);
 			}
 			else {
-				
 				operator = Operators.BoardFirst2(x,null);
 			}
 		}
@@ -104,6 +103,7 @@ public class CarTransportPlanning {
 				operator = Operators.BoardNextTo2(x,null,y);
 			}
 		}
+		
 		/**
 		else if (name.equals("LastFerry")) {
 			//TODO: Is this necessary?
@@ -112,13 +112,15 @@ public class CarTransportPlanning {
 		else if (name.equals("FirstDock")) {
 		}
 		**/
-		System.out.println("PUSH OPERATOR TO STACK: " + operator.toString());
-		return operator;
+		//System.out.println("PUSH OPERATOR TO STACK: " + operator.toString());
+		//return operator;
 		
 		//at the end instantiate operator
-		//StackElement instantiatedOperator = state.instantiateOperator(operator);
-		//System.out.println("PUSH OPERATOR TO STACK: " + instantiatedOperator.toString());
-		//return instantiatedOperator;
+		System.out.println("SELECTED OPERATOR: " + operator.toString());
+		StackElement instantiatedOperator = state.instantiateOperator(operator);
+		System.out.println("PUSH INSTANTIATED OPERATOR: " + instantiatedOperator.toString());
+		//System.out.println(instantiatedOperator == null);
+		return instantiatedOperator;
 	}
 
 	

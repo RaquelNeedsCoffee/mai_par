@@ -1,2 +1,2 @@
-3
-BoardFirst1(A),BoardNextTo1(B,A),BoardNextTo1(C,B)
+4
+BoardFirst2(A,B),BoardNextTo2(B,D,A),BoardNextTo1(C,B),BoardFirst1(D)

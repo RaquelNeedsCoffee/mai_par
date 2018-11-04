@@ -1,5 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.regex.Matcher;
@@ -94,6 +96,32 @@ public class PlannerIOHelper {
 			goalStack.initializeStack(steps);
 		}
 		return goalStack;
+	}
+
+	public static void outputFinalPlan(ArrayList<StackElement> plan, String outputFilename) {
+		FileWriter fw = null;
+		try 
+		{
+			
+			fw = new FileWriter(outputFilename);
+			String s = "";
+			for (int i = 0; i < plan.size(); i++) {
+				StackElement op = plan.get(i);
+				if (i != 0) s += ",";
+				s += op.getName() + "(" + String.join(",", op.getArgs()) + ")";
+				for (int j = 0; j < op.getArgs().size(); ++j) {
+					op.getArgs().get(j);
+				}
+			}
+			s += "\n";
+			fw.write(s);
+			fw.close();
+		} 
+		catch(IOException e) 
+		{
+			e.printStackTrace();
+		}
+		
 	}
 	
 	

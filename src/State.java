@@ -83,6 +83,7 @@ public class State {
 	}
 	
 	public boolean satisfies(StackElement e) {
+		System.out.println("Checking if satisfies: " + e.getName());
 		String condition = e.getName();
 		ArrayList<String> args = e.getArgs();
 		if (condition.equals("FreeLine")) {
@@ -91,8 +92,7 @@ public class State {
 		if (condition.equals("EmptyLinesExist")) {
 			return checkEmptyLinesExist();
 		}
-		predicates.contains(e);
-		return false;
+		return predicates.contains(e);
 	}
 
 	private boolean checkEmptyLinesExist() {

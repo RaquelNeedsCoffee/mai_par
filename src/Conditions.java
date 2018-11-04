@@ -46,6 +46,13 @@ public class Conditions {
 		StackElement e = new StackElement("condition","NextToFerry",args);
 		return e;
 	}
+
+	public static StackElement FreeLine(String x) {
+		ArrayList<String> args = new ArrayList<String>();
+		args.add(x);
+		StackElement e = new StackElement("condition","FreeLine",args);
+		return e;
+	}
 	
 	
 }

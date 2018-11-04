@@ -19,42 +19,34 @@ public class StackElement {
 	}
 
 	public boolean isOperator() {
-		// TODO Auto-generated method stub
-		return false;
+		return (type.equals("operator"));
 	}
 	
 	public boolean isCondition() {
-		// TODO Auto-generated method stub
-		return false;
+		return (type.equals("condition"));
 	}
 
 	public ArrayList<StackElement> getPreconditions() {
-		// TODO Auto-generated method stub
-		return null;
+		return preconditions;
 	}
 	
 	public ArrayList<StackElement> getAddList() {
-		// TODO Auto-generated method stub
-		return null;
+		return addList;
 	}
 	
 	public ArrayList<StackElement> getDeleteList() {
-		// TODO Auto-generated method stub
-		return null;
+		return deleteList;
 	}
 
 	public String getType() {
-		// TODO Auto-generated method stub
 		return type;
 	}
 	
 	public String getName() {
-		// TODO Auto-generated method stub
 		return name;
 	}
 
 	public ArrayList<String> getArgs() {
-		// TODO Auto-generated method stub
 		return args;
 	}
 	

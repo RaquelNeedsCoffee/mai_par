@@ -53,6 +53,11 @@ public class Conditions {
 		StackElement e = new StackElement("condition","FreeLine",args);
 		return e;
 	}
+
+	public static StackElement ExistsEmptyLine() {
+		StackElement e = new StackElement("condition","ExistsEmptyLine",null);
+		return e;
+	}
 	
 	
 }

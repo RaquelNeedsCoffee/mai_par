@@ -13,8 +13,11 @@ public class CarTransportPlanning {
 		/**
 		ArrayList<String> a = new ArrayList<String>();
 		a.add("ei");
-		a.add(null);
+		a.add("ei");
 		a.add("au");
+		HashSet<String> set = new HashSet<String>(a);
+		
+		System.out.println(set.size() < a.size());
 		System.out.println(String.join(",", a));
 		int b = 4;
 		System.out.println(b == 4);
@@ -36,21 +39,28 @@ public class CarTransportPlanning {
 				plan.add(e);
 			}
 			else if (e.isCondition()) {
-				//If state satisfies the condition, we don't do anything
-				//If it doesn't, we look for an operator that has the condition in the AddList
-				System.out.println("[STACK] CHECK CONDITION: " + e.toString());
-				if (!state.satisfies(e)) {
-					System.out.println("Condition NOT satisfied.");
-					StackElement operator = getOperatorWithConditionInAddList(state,e);
-					goalStack.push(operator);
-					ArrayList<StackElement> preconditions = operator.getPreconditions();
-					//preconditions should be already correctly ordered (heuristic)
-					for (int i = 0; i < preconditions.size(); i++) {
-						goalStack.push(preconditions.get(i));
+				if (e.isInstantiated()) {
+					//If state satisfies the condition, we don't do anything
+					//If it doesn't, we look for an operator that has the condition in the AddList
+					System.out.println("[STACK] CHECK CONDITION: " + e.toString());
+					if (!state.satisfies(e)) {
+						System.out.println("Condition NOT satisfied.");
+						StackElement operator = getOperatorWithConditionInAddList(state,e);
+						System.out.println("[STACK] PUSH OPERATOR AND PRECONDITIONS: " + operator.toString());
+						goalStack.push(operator);
+						ArrayList<StackElement> preconditions = operator.getPreconditions();
+						//preconditions should be already correctly ordered (heuristic)
+						for (int i = 0; i < preconditions.size(); i++) {
+							goalStack.push(preconditions.get(i));
+						}
+					}
+					else {
+						System.out.println("Condition satisfied.");
 					}
 				}
 				else {
-					System.out.println("Condition satisfied.");
+					System.out.println("[STACK] INSTANTIATE AND PROPAGATE: " + e.toString());
+					goalStack.instantiateAndPropagate(state);
 				}
 			}
 			else {
@@ -59,6 +69,16 @@ public class CarTransportPlanning {
 			}
 		}
 		System.out.println("Algorithm has finished! Found plan with " + plan.size() + " operators.");
+		String s = "";
+		for (int i = 0; i < plan.size(); i++) {
+			StackElement op = plan.get(i);
+			if (i != 0) s += ",";
+			s += op.getName() + "(" + String.join(",", op.getArgs()) + ")";
+			for (int j = 0; j < op.getArgs().size(); ++j) {
+				op.getArgs().get(j);
+			}
+		}
+		System.out.println("Plan: " + s);
 		PlannerIOHelper.outputFinalPlan(plan,args[1]);
 		
 	}
@@ -103,24 +123,22 @@ public class CarTransportPlanning {
 				operator = Operators.BoardNextTo2(x,null,y);
 			}
 		}
-		
-		/**
-		else if (name.equals("LastFerry")) {
-			//TODO: Is this necessary?
-			System.out.println("Last Ferry on top of the stack");
-		}
 		else if (name.equals("FirstDock")) {
+			//position in line of car x, starting at 1.
+			int positionInLine = state.getPositionInLine(x);
+			if (positionInLine == 2 && state.satisfies(Conditions.ExistsEmptyLine())) {
+				operator = Operators.ChangeToEmptyLine(null, x);
+			}
+			else {
+				operator = Operators.ChangeLine2(null, x, null);
+			}
 		}
-		**/
-		//System.out.println("PUSH OPERATOR TO STACK: " + operator.toString());
-		//return operator;
+		else {
+			operator = null;
+		}
 		
-		//at the end instantiate operator
-		System.out.println("SELECTED OPERATOR: " + operator.toString());
-		StackElement instantiatedOperator = state.instantiateOperator(operator);
-		System.out.println("PUSH INSTANTIATED OPERATOR: " + instantiatedOperator.toString());
-		//System.out.println(instantiatedOperator == null);
-		return instantiatedOperator;
+
+		return operator;
 	}
 
 	

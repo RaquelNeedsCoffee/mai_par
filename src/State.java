@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -19,6 +20,7 @@ public class State {
 		this.numLines = numLines;
 		this.maxColumns = maxColumns;
 		this.blocks = blocks;
+		//We start at numEmptyLines = maxColumns. Every time we encounter a FirstDocks() in the initial state, we subtract 1.
 		this.numEmptyLines = maxColumns;
 		this.predicates = new ArrayList<StackElement>();
 	}
@@ -62,19 +64,24 @@ public class State {
 	}
 
 	public void applyOperator(StackElement e) {
-		// TODO: Be aware of updates in FreeLine(X) and NumEmptyLines()
-		for (StackElement c : e.getAddList()) {
-			predicates.add(c);
+		//Be aware of updates in NumEmptyLines()
+		//FreeLine(X) is not maintained by an internal data structure, it is checked dynamically every time
+		String name = e.getName();
+		if (name.equals("BoardFirst1") || name.equals("BoardNextTo1") || name.equals("ChangeLine1")) {
+			numEmptyLines += 1;
 		}
-		
-		for (StackElement c : e.getDeleteList()) {
-			predicates.remove(c);
+		if (name.equals("ChangeToEmptyLine")) {
+			numEmptyLines -= 1;
 		}
+		// Add and remove from "predicates" according to add and delete list
+		for (StackElement c : e.getAddList()) predicates.add(c);
+		for (StackElement c : e.getDeleteList()) predicates.remove(c);
 		
 	}
 	
 	//make it recursive. Try all combinations on non-instantiated variables
 	public StackElement instantiateOperator(StackElement operator) {
+		System.out.println(operator.toString());
 		//Base case: If it is instantiated -> if satisfied return the operator, if not return null
 		if (operator.isInstantiated()) {
 			if (satisfied_preconditions(operator)) return operator;
@@ -99,9 +106,14 @@ public class State {
 	}
 	
 	private boolean satisfied_preconditions(StackElement operator) {
+		//all arguments must to be different from one another
+		HashSet<String> argsSet = new HashSet<String>(operator.getArgs());
+		if (argsSet.size() < operator.getArgs().size()) return false;
+		//Then check if conditions are satisfied by the state object.
 		ArrayList<StackElement> preconditions = operator.getPreconditions();
 		for (int i = 0; i < preconditions.size(); ++i) {
 			if (!satisfies(preconditions.get(i))) {
+				System.out.println(preconditions.get(i).toString());
 				return false; 
 			}
 		}
@@ -109,18 +121,19 @@ public class State {
 	}
 	
 	public boolean satisfies(StackElement e) {
+		//System.out.println(e.toString());
 		String condition = e.getName();
 		ArrayList<String> args = e.getArgs();
 		if (condition.equals("FreeLine")) {
 			return isFreeLine(args.get(0));
 		}
-		if (condition.equals("EmptyLinesExist")) {
-			return checkEmptyLinesExist();
+		if (condition.equals("ExistsEmptyLine")) {
+			return checkExistsEmptyLine();
 		}
 		return predicates.contains(e);
 	}
 
-	private boolean checkEmptyLinesExist() {
+	private boolean checkExistsEmptyLine() {
 		return (numEmptyLines > 0);
 	}
 
@@ -128,9 +141,9 @@ public class State {
 		//I assume if FreeLine(c) is called, FirstDock(c) is true 
 		//Inefficient
 		String currentCar = c;
-		int numCarsLine = 23;
+		int numCarsLine = 0;
 		while (true) {
-			String next = instantiateNextToDock(currentCar);
+			String next = getDockCarAfter(currentCar);
 			if (next == null) break;
 			else {
 				numCarsLine += 1;
@@ -142,13 +155,33 @@ public class State {
 	
 	
 	//returns the block (car) that is after c if it exists. Returns null otherwise
-	private String instantiateNextToDock(String c) {
+	private String getDockCarAfter(String c) {
 		for (StackElement e: predicates) {
 			if (e.getName().equals("NextToDock") && e.getArgs().get(1).equals(c)) {
 				return e.getArgs().get(0);
 			}
 		}
 		return null;
+	}
+	
+	private String getDockCarBefore(String c) {
+		for (StackElement e: predicates) {
+			if (e.getName().equals("NextToDock") && e.getArgs().get(0).equals(c)) {
+				return e.getArgs().get(1);
+			}
+		}
+		return null;
+	}
+
+	public int getPositionInLine(String x) {
+		if (satisfies(Conditions.FirstDock(x))) return 1;
+		int pos = 1;
+		String carInFront = getDockCarBefore(x);
+		while(carInFront != null) {
+			pos += 1;
+			carInFront = getDockCarBefore(carInFront);
+		}
+		return pos;
 	}
 
 

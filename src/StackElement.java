@@ -67,10 +67,12 @@ public class StackElement {
 	}
 	
 	public String toString() {
+		if (args == null) return name + "()";
 		return name + "(" + String.join(",", args) + ")";
 	}
 	
 	public boolean isInstantiated() {
+		if (args == null) return true;
 		for (int i = 0; i < args.size(); ++i) {
 			if (args.get(i) == null) return false;
 		}

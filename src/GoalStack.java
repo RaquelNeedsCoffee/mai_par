@@ -19,6 +19,10 @@ public class GoalStack {
 	public StackElement pop() {
 		return stack.removeFirst();
 	}
+	
+	public StackElement top() {
+		return stack.getFirst();
+	}
 
 	public void push(StackElement e) {
 		stack.addFirst(e);
@@ -57,6 +61,24 @@ public class GoalStack {
 
 	public int size() {
 		return stack.size();
+	}
+
+	public void instantiateAndPropagate(State state) {
+		//Instantiates all preconditions at once.
+		int count = 0;
+		while(top().isCondition()) {
+			pop();
+			count += 1;
+		}
+		StackElement operator = pop();
+		StackElement instantiatedOperator = state.instantiateOperator(operator);
+		System.out.println("Instantiated operator: " + instantiatedOperator.toString());
+		push(instantiatedOperator);
+		ArrayList<StackElement> preconditions = instantiatedOperator.getPreconditions();
+		//preconditions should be already correctly ordered (heuristic)
+		for (int i = 0; i <= count; i++) {
+			push(preconditions.get(i));
+		}
 	}
 	
 }

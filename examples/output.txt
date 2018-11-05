@@ -1,2 +1,2 @@
-4
-BoardFirst2(A,B),BoardNextTo2(B,D,A),BoardNextTo1(C,B),BoardFirst1(D)
+5
+ChangeLine2(A,B,C),BoardFirst1(B),ChangeToEmptyLine(A,C),BoardNextTo1(C,B),BoardNextTo1(A,C)

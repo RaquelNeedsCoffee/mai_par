@@ -42,8 +42,8 @@ public class Operators {
 		StackElement e = new StackElement("operator","BoardFirst2",args);
 		//preconditions
 		ArrayList<StackElement> preconditions = new ArrayList<StackElement>();
-		preconditions.add(Conditions.FirstDock(x));
 		preconditions.add(Conditions.NextToDock(y,x));
+		preconditions.add(Conditions.FirstDock(x));
 		e.setPreconditions(preconditions);
 		//Add List
 		ArrayList<StackElement> addList = new ArrayList<StackElement>();
@@ -151,10 +151,10 @@ public class Operators {
 		StackElement e = new StackElement("operator","ChangeLine2",args);
 		//preconditions
 		ArrayList<StackElement> preconditions = new ArrayList<StackElement>();
+		preconditions.add(Conditions.FirstDock(z));
+		preconditions.add(Conditions.FreeLine(z));
 		preconditions.add(Conditions.FirstDock(x));
 		preconditions.add(Conditions.NextToDock(y,x));
-		preconditions.add(Conditions.FreeLine(z));
-		preconditions.add(Conditions.FirstDock(z));
 		e.setPreconditions(preconditions);
 		//Add List
 		ArrayList<StackElement> addList = new ArrayList<StackElement>();

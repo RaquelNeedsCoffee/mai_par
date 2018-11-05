@@ -60,7 +60,11 @@ public class CarTransportPlanning {
 				}
 				else {
 					System.out.println("[STACK] INSTANTIATE AND PROPAGATE: " + e.toString());
-					goalStack.instantiateAndPropagate(state);
+					boolean success = goalStack.instantiateAndPropagate(state);
+					if (!success) {
+						System.out.println("Instantiation was not possible");
+						break;
+					}
 				}
 			}
 			else {
@@ -68,18 +72,23 @@ public class CarTransportPlanning {
 				throw new RuntimeException("Stack element type not recognized.");
 			}
 		}
-		System.out.println("Algorithm has finished! Found plan with " + plan.size() + " operators.");
-		String s = "";
-		for (int i = 0; i < plan.size(); i++) {
-			StackElement op = plan.get(i);
-			if (i != 0) s += ",";
-			s += op.getName() + "(" + String.join(",", op.getArgs()) + ")";
-			for (int j = 0; j < op.getArgs().size(); ++j) {
-				op.getArgs().get(j);
-			}
+		if (!goalStack.empty()) {
+			System.out.println("Algorithm was NOT successful.");
 		}
-		System.out.println("Plan: " + s);
-		PlannerIOHelper.outputFinalPlan(plan,args[1]);
+		else {
+			System.out.println("Algorithm has finished! Found plan with " + plan.size() + " operators.");
+			String s = "";
+			for (int i = 0; i < plan.size(); i++) {
+				StackElement op = plan.get(i);
+				if (i != 0) s += ",";
+				s += op.getName() + "(" + String.join(",", op.getArgs()) + ")";
+				for (int j = 0; j < op.getArgs().size(); ++j) {
+					op.getArgs().get(j);
+				}
+			}
+			System.out.println("Plan: " + s);
+			PlannerIOHelper.outputFinalPlan(plan,args[1]);
+		}
 		
 	}
 
@@ -130,7 +139,10 @@ public class CarTransportPlanning {
 				operator = Operators.ChangeToEmptyLine(null, x);
 			}
 			else {
-				operator = Operators.ChangeLine2(null, x, null);
+				//Is this necessary? Yes
+				y = state.getDockCarBefore(x);
+				operator = Operators.ChangeLine2(y, x, null);
+				//operator = Operators.ChangeLine2(null, x, null);
 			}
 		}
 		else {

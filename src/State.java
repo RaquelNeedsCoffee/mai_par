@@ -20,8 +20,8 @@ public class State {
 		this.numLines = numLines;
 		this.maxColumns = maxColumns;
 		this.blocks = blocks;
-		//We start at numEmptyLines = maxColumns. Every time we encounter a FirstDocks() in the initial state, we subtract 1.
-		this.numEmptyLines = maxColumns;
+		//We start at numEmptyLines = numLines. Every time we encounter a FirstDocks() in the initial state, we subtract 1.
+		this.numEmptyLines = numLines;
 		this.predicates = new ArrayList<StackElement>();
 	}
 	
@@ -81,7 +81,6 @@ public class State {
 	
 	//make it recursive. Try all combinations on non-instantiated variables
 	public StackElement instantiateOperator(StackElement operator) {
-		System.out.println(operator.toString());
 		//Base case: If it is instantiated -> if satisfied return the operator, if not return null
 		if (operator.isInstantiated()) {
 			if (satisfied_preconditions(operator)) return operator;
@@ -113,7 +112,6 @@ public class State {
 		ArrayList<StackElement> preconditions = operator.getPreconditions();
 		for (int i = 0; i < preconditions.size(); ++i) {
 			if (!satisfies(preconditions.get(i))) {
-				System.out.println(preconditions.get(i).toString());
 				return false; 
 			}
 		}
@@ -121,7 +119,6 @@ public class State {
 	}
 	
 	public boolean satisfies(StackElement e) {
-		//System.out.println(e.toString());
 		String condition = e.getName();
 		ArrayList<String> args = e.getArgs();
 		if (condition.equals("FreeLine")) {
@@ -141,7 +138,7 @@ public class State {
 		//I assume if FreeLine(c) is called, FirstDock(c) is true 
 		//Inefficient
 		String currentCar = c;
-		int numCarsLine = 0;
+		int numCarsLine = 1;
 		while (true) {
 			String next = getDockCarAfter(currentCar);
 			if (next == null) break;
@@ -155,7 +152,7 @@ public class State {
 	
 	
 	//returns the block (car) that is after c if it exists. Returns null otherwise
-	private String getDockCarAfter(String c) {
+	public String getDockCarAfter(String c) {
 		for (StackElement e: predicates) {
 			if (e.getName().equals("NextToDock") && e.getArgs().get(1).equals(c)) {
 				return e.getArgs().get(0);
@@ -164,7 +161,7 @@ public class State {
 		return null;
 	}
 	
-	private String getDockCarBefore(String c) {
+	public String getDockCarBefore(String c) {
 		for (StackElement e: predicates) {
 			if (e.getName().equals("NextToDock") && e.getArgs().get(0).equals(c)) {
 				return e.getArgs().get(1);

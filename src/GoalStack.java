@@ -63,7 +63,7 @@ public class GoalStack {
 		return stack.size();
 	}
 
-	public void instantiateAndPropagate(State state) {
+	public boolean instantiateAndPropagate(State state) {
 		//Instantiates all preconditions at once.
 		int count = 0;
 		while(top().isCondition()) {
@@ -72,6 +72,7 @@ public class GoalStack {
 		}
 		StackElement operator = pop();
 		StackElement instantiatedOperator = state.instantiateOperator(operator);
+		if (instantiatedOperator == null) return false;
 		System.out.println("Instantiated operator: " + instantiatedOperator.toString());
 		push(instantiatedOperator);
 		ArrayList<StackElement> preconditions = instantiatedOperator.getPreconditions();
@@ -79,6 +80,7 @@ public class GoalStack {
 		for (int i = 0; i <= count; i++) {
 			push(preconditions.get(i));
 		}
+		return true;
 	}
 	
 }

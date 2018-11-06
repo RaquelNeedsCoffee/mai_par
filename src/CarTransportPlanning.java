@@ -142,7 +142,7 @@ public class CarTransportPlanning {
 			else {
 				//optimization: Operator can be instantiated now.
 				y = state.getDockCarBefore(x);
-				operator = Operators.ChangeLine2(y, x, null);
+				operator = Operators.ChangeLine(y, x, null);
 			}
 		}
 		else {

@@ -31,32 +31,62 @@ public class GoalStack {
 	//Right now I assume that the order in which steps are given is the right one.
 	//That is, the steps in the firsts positions are the ones that should be handled first.
 	public void initializeStack(String[] steps) {
+		for (int i = 0; i < steps.length; ++i) {
+			System.out.println(steps[i]);
+		}
+		ArrayList<StackElement> firsts = new ArrayList<StackElement>();
+		ArrayList<StackElement> nextTos = new ArrayList<StackElement>();
+		ArrayList<StackElement> lasts = new ArrayList<StackElement>();
+		//Store steps into StackElement objects (conditions).
 		for (String step : steps) {
 			Matcher matcherFirstFerry = Pattern.compile("FirstFerry\\((\\w+)\\)").matcher(step);
 			if (matcherFirstFerry.find()) {
-				stack.addLast(Conditions.FirstFerry(matcherFirstFerry.group(1)));
+				firsts.add(Conditions.FirstFerry(matcherFirstFerry.group(1)));
 				continue;
 			}
 			
 			Matcher matcherNextToFerry = Pattern.compile("NextToFerry\\((\\w+),(\\w+)\\)").matcher(step);
 			if (matcherNextToFerry.find()) {
-				ArrayList<String> args = new ArrayList<String>();
-				args.add(matcherNextToFerry.group(1));
-				args.add(matcherNextToFerry.group(2));
-				StackElement e = new StackElement("condition","NextToFerry",args);
-				stack.addLast(e);
+				nextTos.add(Conditions.NextToFerry(matcherNextToFerry.group(1), matcherNextToFerry.group(2)));
 				continue;
 			}
 			
 			Matcher matcherLastFerry = Pattern.compile("LastFerry\\((\\w+)\\)").matcher(step);
 			if (matcherLastFerry.find()) {
-				ArrayList<String> args = new ArrayList<String>();
-				args.add(matcherLastFerry.group(1));
-				StackElement e = new StackElement("condition","LastFerry",args);
-				stack.addLast(e);
+				lasts.add(Conditions.LastFerry(matcherLastFerry.group(1)));
 				continue;
 			}
 		}
+		//Push them in the stack in the right order
+		System.out.println(nextTos.size());
+		
+		for (int i = 0; i < firsts.size(); ++i) {
+			StackElement condition = firsts.get(i);
+			String carInFront = condition.getArgs().get(0);
+			while (condition != null) {
+				carInFront = condition.getArgs().get(0);
+				stack.addLast(condition);
+				condition = getNextCondition(carInFront,nextTos);
+			}
+		}
+		//add LastFerrys()
+		for (StackElement car: lasts) {
+			stack.addLast(car);
+		}
+		for (int i = 0; i < stack.size(); ++i) {
+			System.out.println(stack.get(i).toString());
+		}
+	}
+	
+	
+
+	private StackElement getNextCondition(String carInFront, ArrayList<StackElement> nextTos) {
+		for (int i = 0; i < nextTos.size(); ++i) {
+			if (nextTos.get(i).getArgs().get(1).equals(carInFront)) {
+				return nextTos.get(i);
+			}
+		}
+		return null;
 	}
 
 	public int size() {

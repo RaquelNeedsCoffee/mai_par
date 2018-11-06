@@ -29,6 +29,19 @@ public class State {
  *  METHODS 
  ******************************************************************************************/
 	
+	public int getMaxColumns() {
+		return maxColumns;
+	}
+	
+	public int getNumLines() {
+		return numLines;
+	}
+	
+	public int getNumEmptyLines() {
+		return numEmptyLines;
+	}
+	
+	
 	public void initializeState(String[] steps) {
 		//I have assumed that all 
 		for (String step : steps) {
@@ -61,6 +74,27 @@ public class State {
 				continue;
 			}
 		}
+		if (!valid_state()) throw new RuntimeException("Initial state is not valid!");
+	}
+
+	private boolean valid_state() {
+		ArrayList<StackElement> firsts = new ArrayList<StackElement>();
+		for (int i = 0; i < predicates.size(); ++i) {
+			if (predicates.get(i).getName() == "FirstDock") firsts.add(predicates.get(i));
+		}
+		//If the  number of FirstDock predicates is bigger than numLines, the state is invalid
+		if (firsts.size() > numLines) return false;
+		for (int i = 0; i < firsts.size(); ++i) {
+			String nextCar = firsts.get(i).getArgs().get(0);
+			int count = 0;
+			while(nextCar != null) {
+				count += 1;
+				nextCar = getDockCarAfter(nextCar);
+			}
+			//If the number of cars in a line is larger than maxColumns, the state is invalid
+			if (count > maxColumns) return false;
+		}
+		return true;
 	}
 
 	public void applyOperator(StackElement e) {
@@ -81,6 +115,7 @@ public class State {
 	
 	//make it recursive. Try all combinations on non-instantiated variables
 	public StackElement instantiateOperator(StackElement operator) {
+		System.out.println(operator.toString());
 		//Base case: If it is instantiated -> if satisfied return the operator, if not return null
 		if (operator.isInstantiated()) {
 			if (satisfied_preconditions(operator)) return operator;
@@ -112,6 +147,7 @@ public class State {
 		ArrayList<StackElement> preconditions = operator.getPreconditions();
 		for (int i = 0; i < preconditions.size(); ++i) {
 			if (!satisfies(preconditions.get(i))) {
+				System.out.println(preconditions.get(i).toString());
 				return false; 
 			}
 		}

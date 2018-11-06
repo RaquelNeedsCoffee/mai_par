@@ -96,9 +96,10 @@ public class Operators {
 		StackElement e = new StackElement("operator","BoardNextTo2",args);
 		//preconditions
 		ArrayList<StackElement> preconditions = new ArrayList<StackElement>();
-		preconditions.add(Conditions.FirstDock(x));
 		preconditions.add(Conditions.NextToDock(y,x));
 		preconditions.add(Conditions.LastFerry(z));
+		preconditions.add(Conditions.FirstDock(x));
+
 		e.setPreconditions(preconditions);
 		//Add List
 		ArrayList<StackElement> addList = new ArrayList<StackElement>();

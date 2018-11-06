@@ -31,9 +31,6 @@ public class GoalStack {
 	//Right now I assume that the order in which steps are given is the right one.
 	//That is, the steps in the firsts positions are the ones that should be handled first.
 	public void initializeStack(String[] steps) {
-		for (int i = 0; i < steps.length; ++i) {
-			System.out.println(steps[i]);
-		}
 		ArrayList<StackElement> firsts = new ArrayList<StackElement>();
 		ArrayList<StackElement> nextTos = new ArrayList<StackElement>();
 		ArrayList<StackElement> lasts = new ArrayList<StackElement>();
@@ -57,9 +54,7 @@ public class GoalStack {
 				continue;
 			}
 		}
-		//Push them in the stack in the right order
-		System.out.println(nextTos.size());
-		
+		//Push them in the stack in the right order		
 		for (int i = 0; i < firsts.size(); ++i) {
 			StackElement condition = firsts.get(i);
 			String carInFront = condition.getArgs().get(0);
@@ -72,9 +67,6 @@ public class GoalStack {
 		//add LastFerrys()
 		for (StackElement car: lasts) {
 			stack.addLast(car);
-		}
-		for (int i = 0; i < stack.size(); ++i) {
-			System.out.println(stack.get(i).toString());
 		}
 	}
 	
@@ -103,7 +95,6 @@ public class GoalStack {
 		StackElement operator = pop();
 		StackElement instantiatedOperator = state.instantiateOperator(operator);
 		if (instantiatedOperator == null) return false;
-		System.out.println("Instantiated operator: " + instantiatedOperator.toString());
 		push(instantiatedOperator);
 		ArrayList<StackElement> preconditions = instantiatedOperator.getPreconditions();
 		//preconditions should be already correctly ordered (heuristic)

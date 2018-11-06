@@ -115,7 +115,6 @@ public class State {
 	
 	//make it recursive. Try all combinations on non-instantiated variables
 	public StackElement instantiateOperator(StackElement operator) {
-		System.out.println(operator.toString());
 		//Base case: If it is instantiated -> if satisfied return the operator, if not return null
 		if (operator.isInstantiated()) {
 			if (satisfied_preconditions(operator)) return operator;
@@ -147,7 +146,6 @@ public class State {
 		ArrayList<StackElement> preconditions = operator.getPreconditions();
 		for (int i = 0; i < preconditions.size(); ++i) {
 			if (!satisfies(preconditions.get(i))) {
-				System.out.println(preconditions.get(i).toString());
 				return false; 
 			}
 		}

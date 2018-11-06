@@ -98,8 +98,10 @@ public class CarTransportPlanning {
 			if (state.satisfies(Conditions.LastDock(x))) {
 				operator = Operators.BoardFirst1(x);
 			}
-			else {
-				operator = Operators.BoardFirst2(x,null);
+			else {				
+				//optimization: Operator can be instantiated now.
+				y = state.getDockCarAfter(x);
+				operator = Operators.BoardFirst2(x,y);
 			}
 		}
 		//case NextToFerry
@@ -118,7 +120,9 @@ public class CarTransportPlanning {
 			//position in line of car x, starting at 1.
 			int positionInLine = state.getPositionInLine(x);
 			if (state.getNumEmptyLines() >= positionInLine - 1) {
-				operator = Operators.ChangeToEmptyLine(null, x);
+				//optimization: Operator can be instantiated now.
+				y = state.getDockCarBefore(x);
+				operator = Operators.ChangeToEmptyLine(y, x);
 			}
 			else {
 				//optimization: Operator can be partially instantiated now.

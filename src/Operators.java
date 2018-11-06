@@ -54,7 +54,7 @@ public class Operators {
 		//Delete List
 		ArrayList<StackElement> deleteList = new ArrayList<StackElement>();
 		deleteList.add(Conditions.FirstDock(x));
-		deleteList.add(Conditions.LastDock(x));
+		deleteList.add(Conditions.NextToDock(y,x));
 		e.setDeleteList(deleteList);
 		return e;
 	}

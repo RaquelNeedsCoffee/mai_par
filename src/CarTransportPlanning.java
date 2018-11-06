@@ -106,7 +106,6 @@ public class CarTransportPlanning {
 			String x = condition.getArgs().get(0);
 			operator = Operators.BoardFirst1(x);
 		}
-		/**************/
 		String name = condition.getName();
 		//There is always one argument at least and two arguments at most
 		String x = condition.getArgs().get(0);
@@ -139,10 +138,8 @@ public class CarTransportPlanning {
 				operator = Operators.ChangeToEmptyLine(null, x);
 			}
 			else {
-				//Is this necessary? Yes
 				y = state.getDockCarBefore(x);
 				operator = Operators.ChangeLine2(y, x, null);
-				//operator = Operators.ChangeLine2(null, x, null);
 			}
 		}
 		else {

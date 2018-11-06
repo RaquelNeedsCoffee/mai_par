@@ -10,12 +10,6 @@ public class State {
 	int numEmptyLines;
 	ArrayList<StackElement> predicates;
 
-	
-	
-/******************************************************************************************
- * CONSTRUCTOR
- ******************************************************************************************/
-	
 	public State(int numLines, int maxColumns, String[] blocks) {
 		this.numLines = numLines;
 		this.maxColumns = maxColumns;
@@ -24,10 +18,6 @@ public class State {
 		this.numEmptyLines = numLines;
 		this.predicates = new ArrayList<StackElement>();
 	}
-	
-/******************************************************************************************
- *  METHODS 
- ******************************************************************************************/
 	
 	public int getMaxColumns() {
 		return maxColumns;
@@ -41,9 +31,17 @@ public class State {
 		return numEmptyLines;
 	}
 	
+	public String CurrentStatePredicatesToString() {
+		String s = "";
+		for (int i = 0; i < predicates.size(); ++i) {
+			if (i != 0) s += ",";
+			s += predicates.get(i).toString();
+		}
+		return s;
+	}
+	
 	
 	public void initializeState(String[] steps) {
-		//I have assumed that all 
 		for (String step : steps) {
 			Matcher matcherFirstDock = Pattern.compile("FirstDock\\((\\w+)\\)").matcher(step);
 			if (matcherFirstDock.find()) {
@@ -170,7 +168,6 @@ public class State {
 
 	private boolean isFreeLine(String c) {
 		//I assume if FreeLine(c) is called, FirstDock(c) is true 
-		//Inefficient
 		String currentCar = c;
 		int numCarsLine = 1;
 		while (true) {
@@ -195,6 +192,7 @@ public class State {
 		return null;
 	}
 	
+	//returns the block (car) that is before c if it exists. Returns null otherwise
 	public String getDockCarBefore(String c) {
 		for (StackElement e: predicates) {
 			if (e.getName().equals("NextToDock") && e.getArgs().get(0).equals(c)) {
@@ -214,8 +212,6 @@ public class State {
 		}
 		return pos;
 	}
-
-
 
 }
 

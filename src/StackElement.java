@@ -79,7 +79,7 @@ public class StackElement {
 		return true;
 	}
 	
-	//only for conditions
+	//only used for conditions
 	@Override
 	public boolean equals(Object o) {
 		if (!(o instanceof StackElement)) return false;

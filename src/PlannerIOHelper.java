@@ -98,7 +98,7 @@ public class PlannerIOHelper {
 		return goalStack;
 	}
 
-	public static void outputFinalPlan(ArrayList<StackElement> plan, String outputFilename) {
+	public static void outputSuccessfulPlan(ArrayList<StackElement> plan, String outputFilename) {
 		FileWriter fw = null;
 		try 
 		{
@@ -125,6 +125,40 @@ public class PlannerIOHelper {
 		}
 		System.out.println("Successfully written output file.");
 	}
+
+	public static void outputUnsuccessfulPlan(ArrayList<StackElement> plan, GoalStack goalStack,
+											  State state, String outputFilename) {
+		FileWriter fw = null;
+		try 
+		{
+			fw = new FileWriter(outputFilename);
+			//write number of operators
+			fw.write(plan.size() + "\n");
+			//write plan (sequence of operators)
+			String s = "";
+			for (int i = 0; i < plan.size(); i++) {
+				StackElement op = plan.get(i);
+				if (i != 0) s += ",";
+				s += op.getName() + "(" + String.join(",", op.getArgs()) + ")";
+				for (int j = 0; j < op.getArgs().size(); ++j) {
+					op.getArgs().get(j);
+				}
+			}
+			s += "\n";
+			s += "------------------------------------------\n";
+			s += "state restrictions: numLines=" + state.getNumLines() + " maxColums=" + state.getMaxColumns() + "\n";
+			s += "state predicates: " + state.CurrentStatePredicatesToString() + "\n";
+			StackElement failingCondition = goalStack.pop();
+			s += "Failure when trying to instantiate : " + failingCondition.toString() + "\n";
+			fw.write(s);
+			fw.close();
+		} 
+		catch(IOException e) 
+		{
+			e.printStackTrace();
+		}
+		System.out.println("Successfully written output file.");
+	}		
 	
 	
 }

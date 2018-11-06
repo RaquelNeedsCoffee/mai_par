@@ -5,30 +5,17 @@ public class CarTransportPlanning {
 
 	public static void main(String[] args) {
 		//2 arguments are required: inputFile and outputFile
-		//TODO: At the moment only inputFile is implemented
 		if (args.length != 2) {
 			System.out.println("ERROR: Incorrect number of arguments.\nUsage: java CarTransportPlanning inputFilename outputFilename");
 			return;
 		}
-		/**
-		ArrayList<String> a = new ArrayList<String>();
-		a.add("ei");
-		a.add("ei");
-		a.add("au");
-		HashSet<String> set = new HashSet<String>(a);
-		
-		System.out.println(set.size() < a.size());
-		System.out.println(String.join(",", a));
-		int b = 4;
-		System.out.println(b == 4);
-		**/
 		//Get initial and goal states from input file
 		State state = PlannerIOHelper.getInitialState(args[0]);
 		GoalStack goalStack = PlannerIOHelper.getInitialGoalStack(args[0]);
 		ArrayList<StackElement> plan = new ArrayList<StackElement>();
 		while(!goalStack.empty()) {
 			//Prevent infinite recursion
-			if (goalStack.size() > 1000) {
+			if (goalStack.size() > 10000) {
 				System.out.println("Possible goal stack overflow (more than 1000 elements). Execution stopped.");
 				break;
 			}
@@ -63,6 +50,8 @@ public class CarTransportPlanning {
 					boolean success = goalStack.instantiateAndPropagate(state);
 					if (!success) {
 						System.out.println("Instantiation was not possible");
+						//push it again to diagnose the failure
+						goalStack.push(e);
 						break;
 					}
 				}
@@ -74,6 +63,7 @@ public class CarTransportPlanning {
 		}
 		if (!goalStack.empty()) {
 			System.out.println("Algorithm was NOT successful.");
+			PlannerIOHelper.outputUnsuccessfulPlan(plan,goalStack,state,args[1]);
 		}
 		else {
 			System.out.println("Algorithm has finished! Found plan with " + plan.size() + " operators.");
@@ -87,7 +77,7 @@ public class CarTransportPlanning {
 				}
 			}
 			System.out.println("Plan: " + s);
-			PlannerIOHelper.outputFinalPlan(plan,args[1]);
+			PlannerIOHelper.outputSuccessfulPlan(plan,args[1]);
 		}
 		
 	}
@@ -96,16 +86,6 @@ public class CarTransportPlanning {
 	
 	private static StackElement getOperatorWithConditionInAddList(State state,StackElement condition) {
 		StackElement operator;
-		//example
-		if (condition.getName().equals("FirstFerry")) {
-			String x = condition.getArgs().get(0);
-			operator = Operators.BoardFirst1(x);
-		}
-		// provisional
-		else {
-			String x = condition.getArgs().get(0);
-			operator = Operators.BoardFirst1(x);
-		}
 		String name = condition.getName();
 		//There is always one argument at least and two arguments at most
 		String x = condition.getArgs().get(0);
@@ -113,7 +93,7 @@ public class CarTransportPlanning {
 		if (condition.getArgs().size() > 1) {
 			y = condition.getArgs().get(1);
 		}
-		//case FirstFerry(X)
+		//case FirstFerry
 		if (name.equals("FirstFerry")) {
 			if (state.satisfies(Conditions.LastDock(x))) {
 				operator = Operators.BoardFirst1(x);
@@ -133,6 +113,7 @@ public class CarTransportPlanning {
 				operator = Operators.BoardNextTo2(x,z,y);
 			}
 		}
+		//case FirstDock
 		else if (name.equals("FirstDock")) {
 			//position in line of car x, starting at 1.
 			int positionInLine = state.getPositionInLine(x);
@@ -140,7 +121,7 @@ public class CarTransportPlanning {
 				operator = Operators.ChangeToEmptyLine(null, x);
 			}
 			else {
-				//optimization: Operator can be instantiated now.
+				//optimization: Operator can be partially instantiated now.
 				y = state.getDockCarBefore(x);
 				operator = Operators.ChangeLine(y, x, null);
 			}
@@ -148,8 +129,6 @@ public class CarTransportPlanning {
 		else {
 			operator = null;
 		}
-		
-
 		return operator;
 	}
 

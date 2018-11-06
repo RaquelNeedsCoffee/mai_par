@@ -74,6 +74,27 @@ public class State {
 				continue;
 			}
 		}
+		if (!valid_state()) throw new RuntimeException("Initial state is not valid!");
+	}
+
+	private boolean valid_state() {
+		ArrayList<StackElement> firsts = new ArrayList<StackElement>();
+		for (int i = 0; i < predicates.size(); ++i) {
+			if (predicates.get(i).getName() == "FirstDock") firsts.add(predicates.get(i));
+		}
+		//If the  number of FirstDock predicates is bigger than numLines, the state is invalid
+		if (firsts.size() > numLines) return false;
+		for (int i = 0; i < firsts.size(); ++i) {
+			String nextCar = firsts.get(i).getArgs().get(0);
+			int count = 0;
+			while(nextCar != null) {
+				count += 1;
+				nextCar = getDockCarAfter(nextCar);
+			}
+			//If the number of cars in a line is larger than maxColumns, the state is invalid
+			if (count > maxColumns) return false;
+		}
+		return true;
 	}
 
 	public void applyOperator(StackElement e) {

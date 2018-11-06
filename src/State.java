@@ -29,6 +29,19 @@ public class State {
  *  METHODS 
  ******************************************************************************************/
 	
+	public int getMaxColumns() {
+		return maxColumns;
+	}
+	
+	public int getNumLines() {
+		return numLines;
+	}
+	
+	public int getNumEmptyLines() {
+		return numEmptyLines;
+	}
+	
+	
 	public void initializeState(String[] steps) {
 		//I have assumed that all 
 		for (String step : steps) {
@@ -81,6 +94,7 @@ public class State {
 	
 	//make it recursive. Try all combinations on non-instantiated variables
 	public StackElement instantiateOperator(StackElement operator) {
+		System.out.println(operator.toString());
 		//Base case: If it is instantiated -> if satisfied return the operator, if not return null
 		if (operator.isInstantiated()) {
 			if (satisfied_preconditions(operator)) return operator;
@@ -112,6 +126,7 @@ public class State {
 		ArrayList<StackElement> preconditions = operator.getPreconditions();
 		for (int i = 0; i < preconditions.size(); ++i) {
 			if (!satisfies(preconditions.get(i))) {
+				System.out.println(preconditions.get(i).toString());
 				return false; 
 			}
 		}

@@ -128,16 +128,19 @@ public class CarTransportPlanning {
 				operator = Operators.BoardNextTo1(x,y);
 			}
 			else {
-				operator = Operators.BoardNextTo2(x,null,y);
+				//optimization: Operator can be instantiated now.
+				String z = state.getDockCarAfter(x);
+				operator = Operators.BoardNextTo2(x,z,y);
 			}
 		}
 		else if (name.equals("FirstDock")) {
 			//position in line of car x, starting at 1.
 			int positionInLine = state.getPositionInLine(x);
-			if (positionInLine == 2 && state.satisfies(Conditions.ExistsEmptyLine())) {
+			if (state.getNumEmptyLines() >= positionInLine - 1) {
 				operator = Operators.ChangeToEmptyLine(null, x);
 			}
 			else {
+				//optimization: Operator can be instantiated now.
 				y = state.getDockCarBefore(x);
 				operator = Operators.ChangeLine2(y, x, null);
 			}

@@ -1,0 +1,2 @@
+22
+ChangeToEmptyLine(F,E),ChangeToEmptyLine(E,D),ChangeToEmptyLine(D,C),ChangeToEmptyLine(C,B),ChangeToEmptyLine(B,A),BoardFirst1(A),ChangeToEmptyLine(L,K),ChangeToEmptyLine(K,J),ChangeToEmptyLine(J,I),ChangeToEmptyLine(I,H),ChangeToEmptyLine(H,G),BoardNextTo1(G,A),BoardNextTo1(C,G),BoardNextTo1(D,C),BoardNextTo1(K,D),BoardNextTo1(F,K),BoardFirst1(B),BoardNextTo1(H,B),BoardNextTo1(I,H),BoardNextTo1(E,I),BoardNextTo1(J,E),BoardNextTo1(L,J)

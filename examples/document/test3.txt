@@ -1,4 +1,4 @@
-NumLines=4;
+NumLines=5;
 MaxColumns=3;
 Blocks=A.B.C.D.E;
 InitialState=LastDock(A).FirstDock(A).LastDock(B).NextToDock(B,C).NextToDock(C,D).FirstDock(D).LastDock(E).FirstDock(E);

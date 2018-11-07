@@ -1,0 +1,5 @@
+NumLines=2;
+MaxColumns=27;
+Blocks=A.B.C.D.E.F.G.H.I.J.K.L.M.N.O.P.Q.R.S.T.U.V.W.X.Y.Z;
+InitialState=LastDock(A).NextToDock(A,B).NextToDock(B,C).NextToDock(C,D).NextToDock(D,E).NextToDock(E,F).NextToDock(F,G).NextToDock(G,H).NextToDock(H,I).NextToDock(I,J).NextToDock(J,K).NextToDock(K,L).NextToDock(L,M).NextToDock(M,N).NextToDock(N,O).NextToDock(O,P).NextToDock(P,Q).NextToDock(Q,R).NextToDock(R,S).NextToDock(S,T).NextToDock(T,U).NextToDock(U,V).NextToDock(V,W).NextToDock(W,X).NextToDock(X,Y).NextToDock(Y,Z).FirstDock(Z);
+GoalState=FirstFerry(A).NextToFerry(B,A).NextToFerry(C,B).NextToFerry(D,C).NextToFerry(E,D).NextToFerry(F,E).NextToFerry(G,F).NextToFerry(H,G).NextToFerry(I,H).NextToFerry(J,I).NextToFerry(K,J).NextToFerry(L,K).NextToFerry(M,L).NextToFerry(N,M).NextToFerry(O,N).NextToFerry(P,O).NextToFerry(Q,P).NextToFerry(R,Q).NextToFerry(S,R).NextToFerry(T,S).NextToFerry(U,T).NextToFerry(V,U).NextToFerry(W,V).NextToFerry(X,W).NextToFerry(Y,X).NextToFerry(Z,Y).LastFerry(Z);

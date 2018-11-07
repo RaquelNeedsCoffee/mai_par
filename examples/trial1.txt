@@ -1,5 +1,0 @@
-NumLines=1;
-MaxColumns=2;
-Blocks=A.B;
-InitialState=FirstDock(B).NextToDock(A,B).LastDock(A);
-GoalState=FirstFerry(A).NextToFerry(B,A).LastFerry(B);

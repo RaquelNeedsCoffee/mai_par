@@ -1,2 +1,0 @@
-7
-BoardFirst2(B,C),BoardNextTo2(D,E,B),BoardNextTo1(A,D),ChangeToEmptyLine(E,F),BoardFirst1(F),BoardNextTo1(E,F),BoardNextTo1(C,E)

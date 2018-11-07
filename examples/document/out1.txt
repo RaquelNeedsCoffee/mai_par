@@ -1,2 +1,0 @@
-5
-BoardFirst2(C,A),BoardNextTo1(A,C),ChangeToEmptyLine(D,B),BoardFirst1(B),BoardNextTo1(D,B)

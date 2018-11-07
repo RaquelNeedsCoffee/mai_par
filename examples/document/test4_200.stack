@@ -1,0 +1,4189 @@
+[STACK] CHECK CONDITION: FirstFerry(A)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardFirst1(A)
+[STACK] CHECK CONDITION: LastDock(A)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(A)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(B,A,null)
+[STACK] CHECK CONDITION: NextToDock(A,B)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(B)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(C,B,null)
+[STACK] CHECK CONDITION: NextToDock(B,C)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(C)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(D,C,null)
+[STACK] CHECK CONDITION: NextToDock(C,D)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(D)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(E,D,null)
+[STACK] CHECK CONDITION: NextToDock(D,E)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(E)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(F,E,null)
+[STACK] CHECK CONDITION: NextToDock(E,F)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(F)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(G,F,null)
+[STACK] CHECK CONDITION: NextToDock(F,G)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(G)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(H,G,null)
+[STACK] CHECK CONDITION: NextToDock(G,H)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(H)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(I,H,null)
+[STACK] CHECK CONDITION: NextToDock(H,I)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(I)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(J,I,null)
+[STACK] CHECK CONDITION: NextToDock(I,J)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(J)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(K,J,null)
+[STACK] CHECK CONDITION: NextToDock(J,K)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(K)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(L,K,null)
+[STACK] CHECK CONDITION: NextToDock(K,L)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(L)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(M,L,null)
+[STACK] CHECK CONDITION: NextToDock(L,M)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(M)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(N,M,null)
+[STACK] CHECK CONDITION: NextToDock(M,N)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(N)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(O,N,null)
+[STACK] CHECK CONDITION: NextToDock(N,O)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(O)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(P,O,null)
+[STACK] CHECK CONDITION: NextToDock(O,P)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(P)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(Q,P,null)
+[STACK] CHECK CONDITION: NextToDock(P,Q)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(Q)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(R,Q,null)
+[STACK] CHECK CONDITION: NextToDock(Q,R)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(R)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(S,R,null)
+[STACK] CHECK CONDITION: NextToDock(R,S)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(S)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(T,S,null)
+[STACK] CHECK CONDITION: NextToDock(S,T)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(T)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(U,T,null)
+[STACK] CHECK CONDITION: NextToDock(T,U)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(U)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(V,U,null)
+[STACK] CHECK CONDITION: NextToDock(U,V)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(V)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(W,V,null)
+[STACK] CHECK CONDITION: NextToDock(V,W)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(W)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(X,W,null)
+[STACK] CHECK CONDITION: NextToDock(W,X)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(X)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(Y,X,null)
+[STACK] CHECK CONDITION: NextToDock(X,Y)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(Y)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(Z,Y,null)
+[STACK] CHECK CONDITION: NextToDock(Y,Z)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(Z)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAA,Z,null)
+[STACK] CHECK CONDITION: NextToDock(Z,AAA)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAA)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAB,AAA,null)
+[STACK] CHECK CONDITION: NextToDock(AAA,AAB)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAB)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAC,AAB,null)
+[STACK] CHECK CONDITION: NextToDock(AAB,AAC)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAC)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAD,AAC,null)
+[STACK] CHECK CONDITION: NextToDock(AAC,AAD)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAD)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAE,AAD,null)
+[STACK] CHECK CONDITION: NextToDock(AAD,AAE)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAE)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAF,AAE,null)
+[STACK] CHECK CONDITION: NextToDock(AAE,AAF)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAF)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAG,AAF,null)
+[STACK] CHECK CONDITION: NextToDock(AAF,AAG)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAG)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAH,AAG,null)
+[STACK] CHECK CONDITION: NextToDock(AAG,AAH)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAH)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAI,AAH,null)
+[STACK] CHECK CONDITION: NextToDock(AAH,AAI)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAI)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAJ,AAI,null)
+[STACK] CHECK CONDITION: NextToDock(AAI,AAJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAJ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAK,AAJ,null)
+[STACK] CHECK CONDITION: NextToDock(AAJ,AAK)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAK)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAL,AAK,null)
+[STACK] CHECK CONDITION: NextToDock(AAK,AAL)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAL)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAM,AAL,null)
+[STACK] CHECK CONDITION: NextToDock(AAL,AAM)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAM)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAN,AAM,null)
+[STACK] CHECK CONDITION: NextToDock(AAM,AAN)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAN)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAO,AAN,null)
+[STACK] CHECK CONDITION: NextToDock(AAN,AAO)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAO)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAP,AAO,null)
+[STACK] CHECK CONDITION: NextToDock(AAO,AAP)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAP)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAQ,AAP,null)
+[STACK] CHECK CONDITION: NextToDock(AAP,AAQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAQ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAR,AAQ,null)
+[STACK] CHECK CONDITION: NextToDock(AAQ,AAR)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAR)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAS,AAR,null)
+[STACK] CHECK CONDITION: NextToDock(AAR,AAS)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAS)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAT,AAS,null)
+[STACK] CHECK CONDITION: NextToDock(AAS,AAT)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAT)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAU,AAT,null)
+[STACK] CHECK CONDITION: NextToDock(AAT,AAU)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAU)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAV,AAU,null)
+[STACK] CHECK CONDITION: NextToDock(AAU,AAV)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAV)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAW,AAV,null)
+[STACK] CHECK CONDITION: NextToDock(AAV,AAW)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAW)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAX,AAW,null)
+[STACK] CHECK CONDITION: NextToDock(AAW,AAX)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAX)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAY,AAX,null)
+[STACK] CHECK CONDITION: NextToDock(AAX,AAY)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAY)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AAZ,AAY,null)
+[STACK] CHECK CONDITION: NextToDock(AAY,AAZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAZ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABA,AAZ,null)
+[STACK] CHECK CONDITION: NextToDock(AAZ,ABA)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABA)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABB,ABA,null)
+[STACK] CHECK CONDITION: NextToDock(ABA,ABB)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABB)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABC,ABB,null)
+[STACK] CHECK CONDITION: NextToDock(ABB,ABC)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABC)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABD,ABC,null)
+[STACK] CHECK CONDITION: NextToDock(ABC,ABD)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABD)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABE,ABD,null)
+[STACK] CHECK CONDITION: NextToDock(ABD,ABE)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABE)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABF,ABE,null)
+[STACK] CHECK CONDITION: NextToDock(ABE,ABF)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABF)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABG,ABF,null)
+[STACK] CHECK CONDITION: NextToDock(ABF,ABG)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABG)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABH,ABG,null)
+[STACK] CHECK CONDITION: NextToDock(ABG,ABH)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABH)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABI,ABH,null)
+[STACK] CHECK CONDITION: NextToDock(ABH,ABI)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABI)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABJ,ABI,null)
+[STACK] CHECK CONDITION: NextToDock(ABI,ABJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABJ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABK,ABJ,null)
+[STACK] CHECK CONDITION: NextToDock(ABJ,ABK)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABK)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABL,ABK,null)
+[STACK] CHECK CONDITION: NextToDock(ABK,ABL)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABL)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABM,ABL,null)
+[STACK] CHECK CONDITION: NextToDock(ABL,ABM)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABM)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABN,ABM,null)
+[STACK] CHECK CONDITION: NextToDock(ABM,ABN)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABN)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABO,ABN,null)
+[STACK] CHECK CONDITION: NextToDock(ABN,ABO)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABO)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABP,ABO,null)
+[STACK] CHECK CONDITION: NextToDock(ABO,ABP)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABP)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABQ,ABP,null)
+[STACK] CHECK CONDITION: NextToDock(ABP,ABQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABQ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABR,ABQ,null)
+[STACK] CHECK CONDITION: NextToDock(ABQ,ABR)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABR)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABS,ABR,null)
+[STACK] CHECK CONDITION: NextToDock(ABR,ABS)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABS)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABT,ABS,null)
+[STACK] CHECK CONDITION: NextToDock(ABS,ABT)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABT)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABU,ABT,null)
+[STACK] CHECK CONDITION: NextToDock(ABT,ABU)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABU)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABV,ABU,null)
+[STACK] CHECK CONDITION: NextToDock(ABU,ABV)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABV)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABW,ABV,null)
+[STACK] CHECK CONDITION: NextToDock(ABV,ABW)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABW)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABX,ABW,null)
+[STACK] CHECK CONDITION: NextToDock(ABW,ABX)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABX)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABY,ABX,null)
+[STACK] CHECK CONDITION: NextToDock(ABX,ABY)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABY)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ABZ,ABY,null)
+[STACK] CHECK CONDITION: NextToDock(ABY,ABZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABZ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACA,ABZ,null)
+[STACK] CHECK CONDITION: NextToDock(ABZ,ACA)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACA)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACB,ACA,null)
+[STACK] CHECK CONDITION: NextToDock(ACA,ACB)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACB)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACC,ACB,null)
+[STACK] CHECK CONDITION: NextToDock(ACB,ACC)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACC)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACD,ACC,null)
+[STACK] CHECK CONDITION: NextToDock(ACC,ACD)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACD)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACE,ACD,null)
+[STACK] CHECK CONDITION: NextToDock(ACD,ACE)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACE)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACF,ACE,null)
+[STACK] CHECK CONDITION: NextToDock(ACE,ACF)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACF)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACG,ACF,null)
+[STACK] CHECK CONDITION: NextToDock(ACF,ACG)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACG)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACH,ACG,null)
+[STACK] CHECK CONDITION: NextToDock(ACG,ACH)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACH)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACI,ACH,null)
+[STACK] CHECK CONDITION: NextToDock(ACH,ACI)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACI)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACJ,ACI,null)
+[STACK] CHECK CONDITION: NextToDock(ACI,ACJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACJ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACK,ACJ,null)
+[STACK] CHECK CONDITION: NextToDock(ACJ,ACK)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACK)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACL,ACK,null)
+[STACK] CHECK CONDITION: NextToDock(ACK,ACL)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACL)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACM,ACL,null)
+[STACK] CHECK CONDITION: NextToDock(ACL,ACM)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACM)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACN,ACM,null)
+[STACK] CHECK CONDITION: NextToDock(ACM,ACN)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACN)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACO,ACN,null)
+[STACK] CHECK CONDITION: NextToDock(ACN,ACO)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACO)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACP,ACO,null)
+[STACK] CHECK CONDITION: NextToDock(ACO,ACP)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACP)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACQ,ACP,null)
+[STACK] CHECK CONDITION: NextToDock(ACP,ACQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACQ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACR,ACQ,null)
+[STACK] CHECK CONDITION: NextToDock(ACQ,ACR)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACR)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACS,ACR,null)
+[STACK] CHECK CONDITION: NextToDock(ACR,ACS)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACS)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACT,ACS,null)
+[STACK] CHECK CONDITION: NextToDock(ACS,ACT)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACT)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACU,ACT,null)
+[STACK] CHECK CONDITION: NextToDock(ACT,ACU)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACU)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACV,ACU,null)
+[STACK] CHECK CONDITION: NextToDock(ACU,ACV)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACV)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACW,ACV,null)
+[STACK] CHECK CONDITION: NextToDock(ACV,ACW)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACW)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACX,ACW,null)
+[STACK] CHECK CONDITION: NextToDock(ACW,ACX)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACX)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACY,ACX,null)
+[STACK] CHECK CONDITION: NextToDock(ACX,ACY)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACY)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ACZ,ACY,null)
+[STACK] CHECK CONDITION: NextToDock(ACY,ACZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACZ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADA,ACZ,null)
+[STACK] CHECK CONDITION: NextToDock(ACZ,ADA)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADA)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADB,ADA,null)
+[STACK] CHECK CONDITION: NextToDock(ADA,ADB)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADB)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADC,ADB,null)
+[STACK] CHECK CONDITION: NextToDock(ADB,ADC)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADC)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADD,ADC,null)
+[STACK] CHECK CONDITION: NextToDock(ADC,ADD)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADD)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADE,ADD,null)
+[STACK] CHECK CONDITION: NextToDock(ADD,ADE)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADE)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADF,ADE,null)
+[STACK] CHECK CONDITION: NextToDock(ADE,ADF)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADF)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADG,ADF,null)
+[STACK] CHECK CONDITION: NextToDock(ADF,ADG)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADG)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADH,ADG,null)
+[STACK] CHECK CONDITION: NextToDock(ADG,ADH)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADH)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADI,ADH,null)
+[STACK] CHECK CONDITION: NextToDock(ADH,ADI)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADI)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADJ,ADI,null)
+[STACK] CHECK CONDITION: NextToDock(ADI,ADJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADJ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADK,ADJ,null)
+[STACK] CHECK CONDITION: NextToDock(ADJ,ADK)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADK)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADL,ADK,null)
+[STACK] CHECK CONDITION: NextToDock(ADK,ADL)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADL)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADM,ADL,null)
+[STACK] CHECK CONDITION: NextToDock(ADL,ADM)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADM)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADN,ADM,null)
+[STACK] CHECK CONDITION: NextToDock(ADM,ADN)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADN)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADO,ADN,null)
+[STACK] CHECK CONDITION: NextToDock(ADN,ADO)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADO)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADP,ADO,null)
+[STACK] CHECK CONDITION: NextToDock(ADO,ADP)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADP)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADQ,ADP,null)
+[STACK] CHECK CONDITION: NextToDock(ADP,ADQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADQ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADR,ADQ,null)
+[STACK] CHECK CONDITION: NextToDock(ADQ,ADR)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADR)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADS,ADR,null)
+[STACK] CHECK CONDITION: NextToDock(ADR,ADS)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADS)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADT,ADS,null)
+[STACK] CHECK CONDITION: NextToDock(ADS,ADT)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADT)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADU,ADT,null)
+[STACK] CHECK CONDITION: NextToDock(ADT,ADU)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADU)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADV,ADU,null)
+[STACK] CHECK CONDITION: NextToDock(ADU,ADV)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADV)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADW,ADV,null)
+[STACK] CHECK CONDITION: NextToDock(ADV,ADW)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADW)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADX,ADW,null)
+[STACK] CHECK CONDITION: NextToDock(ADW,ADX)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADX)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADY,ADX,null)
+[STACK] CHECK CONDITION: NextToDock(ADX,ADY)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADY)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(ADZ,ADY,null)
+[STACK] CHECK CONDITION: NextToDock(ADY,ADZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADZ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEA,ADZ,null)
+[STACK] CHECK CONDITION: NextToDock(ADZ,AEA)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEA)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEB,AEA,null)
+[STACK] CHECK CONDITION: NextToDock(AEA,AEB)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEB)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEC,AEB,null)
+[STACK] CHECK CONDITION: NextToDock(AEB,AEC)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEC)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AED,AEC,null)
+[STACK] CHECK CONDITION: NextToDock(AEC,AED)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AED)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEE,AED,null)
+[STACK] CHECK CONDITION: NextToDock(AED,AEE)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEE)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEF,AEE,null)
+[STACK] CHECK CONDITION: NextToDock(AEE,AEF)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEF)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEG,AEF,null)
+[STACK] CHECK CONDITION: NextToDock(AEF,AEG)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEG)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEH,AEG,null)
+[STACK] CHECK CONDITION: NextToDock(AEG,AEH)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEH)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEI,AEH,null)
+[STACK] CHECK CONDITION: NextToDock(AEH,AEI)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEI)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEJ,AEI,null)
+[STACK] CHECK CONDITION: NextToDock(AEI,AEJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEJ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEK,AEJ,null)
+[STACK] CHECK CONDITION: NextToDock(AEJ,AEK)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEK)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEL,AEK,null)
+[STACK] CHECK CONDITION: NextToDock(AEK,AEL)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEL)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEM,AEL,null)
+[STACK] CHECK CONDITION: NextToDock(AEL,AEM)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEM)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEN,AEM,null)
+[STACK] CHECK CONDITION: NextToDock(AEM,AEN)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEN)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEO,AEN,null)
+[STACK] CHECK CONDITION: NextToDock(AEN,AEO)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEO)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEP,AEO,null)
+[STACK] CHECK CONDITION: NextToDock(AEO,AEP)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEP)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEQ,AEP,null)
+[STACK] CHECK CONDITION: NextToDock(AEP,AEQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEQ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AER,AEQ,null)
+[STACK] CHECK CONDITION: NextToDock(AEQ,AER)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AER)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AES,AER,null)
+[STACK] CHECK CONDITION: NextToDock(AER,AES)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AES)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AET,AES,null)
+[STACK] CHECK CONDITION: NextToDock(AES,AET)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AET)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEU,AET,null)
+[STACK] CHECK CONDITION: NextToDock(AET,AEU)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEU)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEV,AEU,null)
+[STACK] CHECK CONDITION: NextToDock(AEU,AEV)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEV)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEW,AEV,null)
+[STACK] CHECK CONDITION: NextToDock(AEV,AEW)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEW)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEX,AEW,null)
+[STACK] CHECK CONDITION: NextToDock(AEW,AEX)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEX)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEY,AEX,null)
+[STACK] CHECK CONDITION: NextToDock(AEX,AEY)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEY)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AEZ,AEY,null)
+[STACK] CHECK CONDITION: NextToDock(AEY,AEZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEZ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFA,AEZ,null)
+[STACK] CHECK CONDITION: NextToDock(AEZ,AFA)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFA)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFB,AFA,null)
+[STACK] CHECK CONDITION: NextToDock(AFA,AFB)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFB)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFC,AFB,null)
+[STACK] CHECK CONDITION: NextToDock(AFB,AFC)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFC)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFD,AFC,null)
+[STACK] CHECK CONDITION: NextToDock(AFC,AFD)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFD)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFE,AFD,null)
+[STACK] CHECK CONDITION: NextToDock(AFD,AFE)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFE)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFF,AFE,null)
+[STACK] CHECK CONDITION: NextToDock(AFE,AFF)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFF)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFG,AFF,null)
+[STACK] CHECK CONDITION: NextToDock(AFF,AFG)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFG)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFH,AFG,null)
+[STACK] CHECK CONDITION: NextToDock(AFG,AFH)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFH)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFI,AFH,null)
+[STACK] CHECK CONDITION: NextToDock(AFH,AFI)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFI)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFJ,AFI,null)
+[STACK] CHECK CONDITION: NextToDock(AFI,AFJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFJ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFK,AFJ,null)
+[STACK] CHECK CONDITION: NextToDock(AFJ,AFK)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFK)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFL,AFK,null)
+[STACK] CHECK CONDITION: NextToDock(AFK,AFL)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFL)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFM,AFL,null)
+[STACK] CHECK CONDITION: NextToDock(AFL,AFM)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFM)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFN,AFM,null)
+[STACK] CHECK CONDITION: NextToDock(AFM,AFN)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFN)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFO,AFN,null)
+[STACK] CHECK CONDITION: NextToDock(AFN,AFO)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFO)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFP,AFO,null)
+[STACK] CHECK CONDITION: NextToDock(AFO,AFP)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFP)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFQ,AFP,null)
+[STACK] CHECK CONDITION: NextToDock(AFP,AFQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFQ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFR,AFQ,null)
+[STACK] CHECK CONDITION: NextToDock(AFQ,AFR)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFR)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFS,AFR,null)
+[STACK] CHECK CONDITION: NextToDock(AFR,AFS)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFS)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFT,AFS,null)
+[STACK] CHECK CONDITION: NextToDock(AFS,AFT)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFT)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFU,AFT,null)
+[STACK] CHECK CONDITION: NextToDock(AFT,AFU)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFU)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFV,AFU,null)
+[STACK] CHECK CONDITION: NextToDock(AFU,AFV)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFV)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFW,AFV,null)
+[STACK] CHECK CONDITION: NextToDock(AFV,AFW)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFW)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFX,AFW,null)
+[STACK] CHECK CONDITION: NextToDock(AFW,AFX)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFX)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFY,AFX,null)
+[STACK] CHECK CONDITION: NextToDock(AFX,AFY)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFY)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AFZ,AFY,null)
+[STACK] CHECK CONDITION: NextToDock(AFY,AFZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFZ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGA,AFZ,null)
+[STACK] CHECK CONDITION: NextToDock(AFZ,AGA)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGA)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGB,AGA,null)
+[STACK] CHECK CONDITION: NextToDock(AGA,AGB)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGB)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGC,AGB,null)
+[STACK] CHECK CONDITION: NextToDock(AGB,AGC)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGC)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGD,AGC,null)
+[STACK] CHECK CONDITION: NextToDock(AGC,AGD)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGD)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGE,AGD,null)
+[STACK] CHECK CONDITION: NextToDock(AGD,AGE)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGE)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGF,AGE,null)
+[STACK] CHECK CONDITION: NextToDock(AGE,AGF)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGF)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGG,AGF,null)
+[STACK] CHECK CONDITION: NextToDock(AGF,AGG)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGG)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGH,AGG,null)
+[STACK] CHECK CONDITION: NextToDock(AGG,AGH)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGH)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGI,AGH,null)
+[STACK] CHECK CONDITION: NextToDock(AGH,AGI)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGI)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGJ,AGI,null)
+[STACK] CHECK CONDITION: NextToDock(AGI,AGJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGJ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGK,AGJ,null)
+[STACK] CHECK CONDITION: NextToDock(AGJ,AGK)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGK)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGL,AGK,null)
+[STACK] CHECK CONDITION: NextToDock(AGK,AGL)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGL)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGM,AGL,null)
+[STACK] CHECK CONDITION: NextToDock(AGL,AGM)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGM)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGN,AGM,null)
+[STACK] CHECK CONDITION: NextToDock(AGM,AGN)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGN)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGO,AGN,null)
+[STACK] CHECK CONDITION: NextToDock(AGN,AGO)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGO)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGP,AGO,null)
+[STACK] CHECK CONDITION: NextToDock(AGO,AGP)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGP)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeLine(AGQ,AGP,null)
+[STACK] CHECK CONDITION: NextToDock(AGP,AGQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGQ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeToEmptyLine(AGR,AGQ)
+[STACK] CHECK CONDITION: NextToDock(AGQ,AGR)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGR)
+Condition satisfied.
+[STACK] CHECK CONDITION: ExistsEmptyLine()
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeToEmptyLine(AGR,AGQ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGR)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGR)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGQ,AGP,AGR)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGQ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGP,AGO,AGQ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGP)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGP)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGO,AGN,AGP)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGO)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGO)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGN,AGM,AGO)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGN)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGN)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGM,AGL,AGN)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGM)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGM)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGL,AGK,AGM)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGL)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGL)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGK,AGJ,AGL)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGK)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGK)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGJ,AGI,AGK)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGJ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGI,AGH,AGJ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGI)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGI)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGH,AGG,AGI)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGH)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGH)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGG,AGF,AGH)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGG)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGG)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGF,AGE,AGG)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGF)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGF)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGE,AGD,AGF)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGE)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGE)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGD,AGC,AGE)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGD)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGD)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGC,AGB,AGD)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGC)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGC)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGB,AGA,AGC)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGB)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGB)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AGA,AFZ,AGB)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AGA)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGA)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFZ,AFY,AGA)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFZ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFY,AFX,AFZ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFY)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFY)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFX,AFW,AFY)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFX)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFX)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFW,AFV,AFX)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFW)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFW)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFV,AFU,AFW)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFV)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFV)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFU,AFT,AFV)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFU)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFU)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFT,AFS,AFU)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFT)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFT)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFS,AFR,AFT)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFS)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFS)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFR,AFQ,AFS)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFR)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFR)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFQ,AFP,AFR)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFQ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFP,AFO,AFQ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFP)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFP)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFO,AFN,AFP)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFO)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFO)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFN,AFM,AFO)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFN)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFN)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFM,AFL,AFN)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFM)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFM)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFL,AFK,AFM)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFL)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFL)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFK,AFJ,AFL)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFK)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFK)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFJ,AFI,AFK)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFJ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFI,AFH,AFJ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFI)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFI)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFH,AFG,AFI)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFH)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFH)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFG,AFF,AFH)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFG)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFG)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFF,AFE,AFG)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFF)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFF)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFE,AFD,AFF)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFE)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFE)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFD,AFC,AFE)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFD)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFD)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFC,AFB,AFD)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFC)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFC)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFB,AFA,AFC)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFB)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFB)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AFA,AEZ,AFB)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AFA)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AFA)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEZ,AEY,AFA)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEZ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEY,AEX,AEZ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEY)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEY)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEX,AEW,AEY)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEX)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEX)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEW,AEV,AEX)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEW)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEW)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEV,AEU,AEW)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEV)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEV)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEU,AET,AEV)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEU)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEU)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AET,AES,AEU)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AET)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AET)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AES,AER,AET)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AES)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AES)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AER,AEQ,AES)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AER)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AER)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEQ,AEP,AER)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEQ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEP,AEO,AEQ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEP)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEP)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEO,AEN,AEP)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEO)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEO)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEN,AEM,AEO)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEN)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEN)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEM,AEL,AEN)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEM)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEM)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEL,AEK,AEM)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEL)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEL)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEK,AEJ,AEL)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEK)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEK)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEJ,AEI,AEK)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEJ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEI,AEH,AEJ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEI)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEI)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEH,AEG,AEI)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEH)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEH)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEG,AEF,AEH)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEG)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEG)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEF,AEE,AEG)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEF)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEF)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEE,AED,AEF)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEE)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEE)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AED,AEC,AEE)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AED)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AED)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEC,AEB,AED)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEC)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEC)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEB,AEA,AEC)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEB)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEB)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AEA,ADZ,AEB)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AEA)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AEA)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADZ,ADY,AEA)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADZ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADY,ADX,ADZ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADY)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADY)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADX,ADW,ADY)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADX)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADX)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADW,ADV,ADX)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADW)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADW)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADV,ADU,ADW)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADV)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADV)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADU,ADT,ADV)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADU)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADU)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADT,ADS,ADU)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADT)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADT)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADS,ADR,ADT)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADS)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADS)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADR,ADQ,ADS)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADR)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADR)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADQ,ADP,ADR)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADQ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADP,ADO,ADQ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADP)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADP)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADO,ADN,ADP)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADO)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADO)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADN,ADM,ADO)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADN)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADN)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADM,ADL,ADN)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADM)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADM)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADL,ADK,ADM)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADL)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADL)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADK,ADJ,ADL)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADK)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADK)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADJ,ADI,ADK)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADJ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADI,ADH,ADJ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADI)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADI)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADH,ADG,ADI)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADH)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADH)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADG,ADF,ADH)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADG)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADG)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADF,ADE,ADG)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADF)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADF)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADE,ADD,ADF)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADE)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADE)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADD,ADC,ADE)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADD)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADD)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADC,ADB,ADD)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADC)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADC)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADB,ADA,ADC)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADB)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADB)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ADA,ACZ,ADB)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ADA)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ADA)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACZ,ACY,ADA)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACZ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACY,ACX,ACZ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACY)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACY)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACX,ACW,ACY)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACX)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACX)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACW,ACV,ACX)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACW)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACW)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACV,ACU,ACW)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACV)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACV)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACU,ACT,ACV)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACU)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACU)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACT,ACS,ACU)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACT)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACT)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACS,ACR,ACT)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACS)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACS)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACR,ACQ,ACS)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACR)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACR)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACQ,ACP,ACR)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACQ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACP,ACO,ACQ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACP)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACP)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACO,ACN,ACP)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACO)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACO)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACN,ACM,ACO)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACN)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACN)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACM,ACL,ACN)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACM)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACM)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACL,ACK,ACM)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACL)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACL)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACK,ACJ,ACL)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACK)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACK)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACJ,ACI,ACK)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACJ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACI,ACH,ACJ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACI)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACI)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACH,ACG,ACI)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACH)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACH)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACG,ACF,ACH)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACG)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACG)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACF,ACE,ACG)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACF)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACF)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACE,ACD,ACF)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACE)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACE)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACD,ACC,ACE)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACD)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACD)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACC,ACB,ACD)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACC)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACC)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACB,ACA,ACC)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACB)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACB)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ACA,ABZ,ACB)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ACA)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ACA)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABZ,ABY,ACA)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABZ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABY,ABX,ABZ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABY)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABY)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABX,ABW,ABY)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABX)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABX)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABW,ABV,ABX)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABW)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABW)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABV,ABU,ABW)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABV)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABV)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABU,ABT,ABV)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABU)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABU)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABT,ABS,ABU)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABT)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABT)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABS,ABR,ABT)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABS)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABS)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABR,ABQ,ABS)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABR)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABR)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABQ,ABP,ABR)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABQ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABP,ABO,ABQ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABP)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABP)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABO,ABN,ABP)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABO)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABO)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABN,ABM,ABO)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABN)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABN)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABM,ABL,ABN)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABM)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABM)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABL,ABK,ABM)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABL)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABL)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABK,ABJ,ABL)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABK)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABK)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABJ,ABI,ABK)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABJ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABI,ABH,ABJ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABI)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABI)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABH,ABG,ABI)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABH)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABH)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABG,ABF,ABH)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABG)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABG)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABF,ABE,ABG)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABF)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABF)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABE,ABD,ABF)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABE)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABE)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABD,ABC,ABE)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABD)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABD)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABC,ABB,ABD)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABC)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABC)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABB,ABA,ABC)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABB)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABB)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(ABA,AAZ,ABB)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(ABA)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(ABA)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAZ,AAY,ABA)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAZ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAY,AAX,AAZ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAY)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAY)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAX,AAW,AAY)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAX)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAX)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAW,AAV,AAX)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAW)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAW)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAV,AAU,AAW)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAV)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAV)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAU,AAT,AAV)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAU)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAU)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAT,AAS,AAU)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAT)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAT)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAS,AAR,AAT)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAS)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAS)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAR,AAQ,AAS)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAR)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAR)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAQ,AAP,AAR)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAQ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAP,AAO,AAQ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAP)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAP)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAO,AAN,AAP)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAO)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAO)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAN,AAM,AAO)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAN)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAN)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAM,AAL,AAN)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAM)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAM)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAL,AAK,AAM)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAL)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAL)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAK,AAJ,AAL)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAK)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAK)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAJ,AAI,AAK)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAJ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAI,AAH,AAJ)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAI)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAI)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAH,AAG,AAI)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAH)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAH)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAG,AAF,AAH)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAG)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAG)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAF,AAE,AAG)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAF)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAF)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAE,AAD,AAF)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAE)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAE)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAD,AAC,AAE)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAD)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAD)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAC,AAB,AAD)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAC)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAC)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAB,AAA,AAC)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAB)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAB)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(AAA,Z,AAB)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(AAA)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AAA)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(Z,Y,AAA)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(Z)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(Z)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(Y,X,Z)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(Y)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(Y)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(X,W,Y)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(X)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(X)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(W,V,X)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(W)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(W)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(V,U,W)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(V)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(V)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(U,T,V)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(U)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(U)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(T,S,U)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(T)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(T)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(S,R,T)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(S)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(S)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(R,Q,S)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(R)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(R)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(Q,P,R)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(Q)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(Q)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(P,O,Q)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(P)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(P)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(O,N,P)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(O)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(O)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(N,M,O)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(N)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(N)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(M,L,N)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(M)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(M)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(L,K,M)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(L)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(L)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(K,J,L)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(K)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(K)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(J,I,K)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(J)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(J)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(I,H,J)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(I)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(I)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(H,G,I)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(H)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(H)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(G,F,H)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(G)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(G)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(F,E,G)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(F)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(F)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(E,D,F)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(E)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(E)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(D,C,E)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(D)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(D)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(C,B,D)
+[STACK] INSTANTIATE AND PROPAGATE: FreeLine(null)
+[STACK] CHECK CONDITION: FreeLine(C)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(C)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeLine(B,A,C)
+[STACK] APPLY OPERATOR TO STATE: Operator BoardFirst1(A)
+[STACK] CHECK CONDITION: NextToFerry(B,A)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(B,C,A)
+[STACK] CHECK CONDITION: FirstDock(B)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(A)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(C,B)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(B,C,A)
+[STACK] CHECK CONDITION: NextToFerry(C,B)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(C,D,B)
+[STACK] CHECK CONDITION: FirstDock(C)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(B)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(D,C)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(C,D,B)
+[STACK] CHECK CONDITION: NextToFerry(D,C)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(D,E,C)
+[STACK] CHECK CONDITION: FirstDock(D)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(C)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(E,D)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(D,E,C)
+[STACK] CHECK CONDITION: NextToFerry(E,D)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(E,F,D)
+[STACK] CHECK CONDITION: FirstDock(E)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(D)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(F,E)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(E,F,D)
+[STACK] CHECK CONDITION: NextToFerry(F,E)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(F,G,E)
+[STACK] CHECK CONDITION: FirstDock(F)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(E)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(G,F)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(F,G,E)
+[STACK] CHECK CONDITION: NextToFerry(G,F)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(G,H,F)
+[STACK] CHECK CONDITION: FirstDock(G)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(F)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(H,G)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(G,H,F)
+[STACK] CHECK CONDITION: NextToFerry(H,G)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(H,I,G)
+[STACK] CHECK CONDITION: FirstDock(H)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(G)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(I,H)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(H,I,G)
+[STACK] CHECK CONDITION: NextToFerry(I,H)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(I,J,H)
+[STACK] CHECK CONDITION: FirstDock(I)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(H)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(J,I)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(I,J,H)
+[STACK] CHECK CONDITION: NextToFerry(J,I)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(J,K,I)
+[STACK] CHECK CONDITION: FirstDock(J)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(I)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(K,J)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(J,K,I)
+[STACK] CHECK CONDITION: NextToFerry(K,J)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(K,L,J)
+[STACK] CHECK CONDITION: FirstDock(K)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(J)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(L,K)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(K,L,J)
+[STACK] CHECK CONDITION: NextToFerry(L,K)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(L,M,K)
+[STACK] CHECK CONDITION: FirstDock(L)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(K)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(M,L)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(L,M,K)
+[STACK] CHECK CONDITION: NextToFerry(M,L)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(M,N,L)
+[STACK] CHECK CONDITION: FirstDock(M)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(L)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(N,M)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(M,N,L)
+[STACK] CHECK CONDITION: NextToFerry(N,M)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(N,O,M)
+[STACK] CHECK CONDITION: FirstDock(N)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(M)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(O,N)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(N,O,M)
+[STACK] CHECK CONDITION: NextToFerry(O,N)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(O,P,N)
+[STACK] CHECK CONDITION: FirstDock(O)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(N)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(P,O)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(O,P,N)
+[STACK] CHECK CONDITION: NextToFerry(P,O)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(P,Q,O)
+[STACK] CHECK CONDITION: FirstDock(P)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(O)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(Q,P)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(P,Q,O)
+[STACK] CHECK CONDITION: NextToFerry(Q,P)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(Q,R,P)
+[STACK] CHECK CONDITION: FirstDock(Q)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(P)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(R,Q)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(Q,R,P)
+[STACK] CHECK CONDITION: NextToFerry(R,Q)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(R,S,Q)
+[STACK] CHECK CONDITION: FirstDock(R)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(Q)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(S,R)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(R,S,Q)
+[STACK] CHECK CONDITION: NextToFerry(S,R)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(S,T,R)
+[STACK] CHECK CONDITION: FirstDock(S)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(R)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(T,S)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(S,T,R)
+[STACK] CHECK CONDITION: NextToFerry(T,S)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(T,U,S)
+[STACK] CHECK CONDITION: FirstDock(T)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(S)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(U,T)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(T,U,S)
+[STACK] CHECK CONDITION: NextToFerry(U,T)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(U,V,T)
+[STACK] CHECK CONDITION: FirstDock(U)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(T)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(V,U)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(U,V,T)
+[STACK] CHECK CONDITION: NextToFerry(V,U)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(V,W,U)
+[STACK] CHECK CONDITION: FirstDock(V)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(U)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(W,V)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(V,W,U)
+[STACK] CHECK CONDITION: NextToFerry(W,V)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(W,X,V)
+[STACK] CHECK CONDITION: FirstDock(W)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(V)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(X,W)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(W,X,V)
+[STACK] CHECK CONDITION: NextToFerry(X,W)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(X,Y,W)
+[STACK] CHECK CONDITION: FirstDock(X)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(W)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(Y,X)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(X,Y,W)
+[STACK] CHECK CONDITION: NextToFerry(Y,X)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(Y,Z,X)
+[STACK] CHECK CONDITION: FirstDock(Y)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(X)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(Z,Y)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(Y,Z,X)
+[STACK] CHECK CONDITION: NextToFerry(Z,Y)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(Z,AAA,Y)
+[STACK] CHECK CONDITION: FirstDock(Z)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(Y)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAA,Z)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(Z,AAA,Y)
+[STACK] CHECK CONDITION: NextToFerry(AAA,Z)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAA,AAB,Z)
+[STACK] CHECK CONDITION: FirstDock(AAA)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(Z)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAB,AAA)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAA,AAB,Z)
+[STACK] CHECK CONDITION: NextToFerry(AAB,AAA)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAB,AAC,AAA)
+[STACK] CHECK CONDITION: FirstDock(AAB)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAA)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAC,AAB)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAB,AAC,AAA)
+[STACK] CHECK CONDITION: NextToFerry(AAC,AAB)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAC,AAD,AAB)
+[STACK] CHECK CONDITION: FirstDock(AAC)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAB)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAD,AAC)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAC,AAD,AAB)
+[STACK] CHECK CONDITION: NextToFerry(AAD,AAC)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAD,AAE,AAC)
+[STACK] CHECK CONDITION: FirstDock(AAD)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAC)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAE,AAD)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAD,AAE,AAC)
+[STACK] CHECK CONDITION: NextToFerry(AAE,AAD)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAE,AAF,AAD)
+[STACK] CHECK CONDITION: FirstDock(AAE)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAD)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAF,AAE)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAE,AAF,AAD)
+[STACK] CHECK CONDITION: NextToFerry(AAF,AAE)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAF,AAG,AAE)
+[STACK] CHECK CONDITION: FirstDock(AAF)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAE)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAG,AAF)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAF,AAG,AAE)
+[STACK] CHECK CONDITION: NextToFerry(AAG,AAF)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAG,AAH,AAF)
+[STACK] CHECK CONDITION: FirstDock(AAG)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAF)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAH,AAG)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAG,AAH,AAF)
+[STACK] CHECK CONDITION: NextToFerry(AAH,AAG)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAH,AAI,AAG)
+[STACK] CHECK CONDITION: FirstDock(AAH)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAG)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAI,AAH)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAH,AAI,AAG)
+[STACK] CHECK CONDITION: NextToFerry(AAI,AAH)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAI,AAJ,AAH)
+[STACK] CHECK CONDITION: FirstDock(AAI)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAH)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAJ,AAI)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAI,AAJ,AAH)
+[STACK] CHECK CONDITION: NextToFerry(AAJ,AAI)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAJ,AAK,AAI)
+[STACK] CHECK CONDITION: FirstDock(AAJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAI)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAK,AAJ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAJ,AAK,AAI)
+[STACK] CHECK CONDITION: NextToFerry(AAK,AAJ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAK,AAL,AAJ)
+[STACK] CHECK CONDITION: FirstDock(AAK)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAL,AAK)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAK,AAL,AAJ)
+[STACK] CHECK CONDITION: NextToFerry(AAL,AAK)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAL,AAM,AAK)
+[STACK] CHECK CONDITION: FirstDock(AAL)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAK)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAM,AAL)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAL,AAM,AAK)
+[STACK] CHECK CONDITION: NextToFerry(AAM,AAL)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAM,AAN,AAL)
+[STACK] CHECK CONDITION: FirstDock(AAM)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAL)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAN,AAM)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAM,AAN,AAL)
+[STACK] CHECK CONDITION: NextToFerry(AAN,AAM)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAN,AAO,AAM)
+[STACK] CHECK CONDITION: FirstDock(AAN)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAM)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAO,AAN)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAN,AAO,AAM)
+[STACK] CHECK CONDITION: NextToFerry(AAO,AAN)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAO,AAP,AAN)
+[STACK] CHECK CONDITION: FirstDock(AAO)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAN)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAP,AAO)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAO,AAP,AAN)
+[STACK] CHECK CONDITION: NextToFerry(AAP,AAO)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAP,AAQ,AAO)
+[STACK] CHECK CONDITION: FirstDock(AAP)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAO)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAQ,AAP)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAP,AAQ,AAO)
+[STACK] CHECK CONDITION: NextToFerry(AAQ,AAP)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAQ,AAR,AAP)
+[STACK] CHECK CONDITION: FirstDock(AAQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAP)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAR,AAQ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAQ,AAR,AAP)
+[STACK] CHECK CONDITION: NextToFerry(AAR,AAQ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAR,AAS,AAQ)
+[STACK] CHECK CONDITION: FirstDock(AAR)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAS,AAR)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAR,AAS,AAQ)
+[STACK] CHECK CONDITION: NextToFerry(AAS,AAR)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAS,AAT,AAR)
+[STACK] CHECK CONDITION: FirstDock(AAS)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAR)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAT,AAS)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAS,AAT,AAR)
+[STACK] CHECK CONDITION: NextToFerry(AAT,AAS)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAT,AAU,AAS)
+[STACK] CHECK CONDITION: FirstDock(AAT)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAS)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAU,AAT)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAT,AAU,AAS)
+[STACK] CHECK CONDITION: NextToFerry(AAU,AAT)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAU,AAV,AAT)
+[STACK] CHECK CONDITION: FirstDock(AAU)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAT)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAV,AAU)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAU,AAV,AAT)
+[STACK] CHECK CONDITION: NextToFerry(AAV,AAU)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAV,AAW,AAU)
+[STACK] CHECK CONDITION: FirstDock(AAV)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAU)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAW,AAV)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAV,AAW,AAU)
+[STACK] CHECK CONDITION: NextToFerry(AAW,AAV)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAW,AAX,AAV)
+[STACK] CHECK CONDITION: FirstDock(AAW)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAV)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAX,AAW)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAW,AAX,AAV)
+[STACK] CHECK CONDITION: NextToFerry(AAX,AAW)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAX,AAY,AAW)
+[STACK] CHECK CONDITION: FirstDock(AAX)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAW)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAY,AAX)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAX,AAY,AAW)
+[STACK] CHECK CONDITION: NextToFerry(AAY,AAX)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAY,AAZ,AAX)
+[STACK] CHECK CONDITION: FirstDock(AAY)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAX)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AAZ,AAY)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAY,AAZ,AAX)
+[STACK] CHECK CONDITION: NextToFerry(AAZ,AAY)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AAZ,ABA,AAY)
+[STACK] CHECK CONDITION: FirstDock(AAZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAY)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABA,AAZ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AAZ,ABA,AAY)
+[STACK] CHECK CONDITION: NextToFerry(ABA,AAZ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABA,ABB,AAZ)
+[STACK] CHECK CONDITION: FirstDock(ABA)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AAZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABB,ABA)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABA,ABB,AAZ)
+[STACK] CHECK CONDITION: NextToFerry(ABB,ABA)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABB,ABC,ABA)
+[STACK] CHECK CONDITION: FirstDock(ABB)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABA)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABC,ABB)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABB,ABC,ABA)
+[STACK] CHECK CONDITION: NextToFerry(ABC,ABB)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABC,ABD,ABB)
+[STACK] CHECK CONDITION: FirstDock(ABC)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABB)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABD,ABC)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABC,ABD,ABB)
+[STACK] CHECK CONDITION: NextToFerry(ABD,ABC)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABD,ABE,ABC)
+[STACK] CHECK CONDITION: FirstDock(ABD)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABC)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABE,ABD)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABD,ABE,ABC)
+[STACK] CHECK CONDITION: NextToFerry(ABE,ABD)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABE,ABF,ABD)
+[STACK] CHECK CONDITION: FirstDock(ABE)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABD)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABF,ABE)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABE,ABF,ABD)
+[STACK] CHECK CONDITION: NextToFerry(ABF,ABE)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABF,ABG,ABE)
+[STACK] CHECK CONDITION: FirstDock(ABF)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABE)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABG,ABF)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABF,ABG,ABE)
+[STACK] CHECK CONDITION: NextToFerry(ABG,ABF)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABG,ABH,ABF)
+[STACK] CHECK CONDITION: FirstDock(ABG)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABF)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABH,ABG)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABG,ABH,ABF)
+[STACK] CHECK CONDITION: NextToFerry(ABH,ABG)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABH,ABI,ABG)
+[STACK] CHECK CONDITION: FirstDock(ABH)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABG)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABI,ABH)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABH,ABI,ABG)
+[STACK] CHECK CONDITION: NextToFerry(ABI,ABH)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABI,ABJ,ABH)
+[STACK] CHECK CONDITION: FirstDock(ABI)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABH)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABJ,ABI)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABI,ABJ,ABH)
+[STACK] CHECK CONDITION: NextToFerry(ABJ,ABI)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABJ,ABK,ABI)
+[STACK] CHECK CONDITION: FirstDock(ABJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABI)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABK,ABJ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABJ,ABK,ABI)
+[STACK] CHECK CONDITION: NextToFerry(ABK,ABJ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABK,ABL,ABJ)
+[STACK] CHECK CONDITION: FirstDock(ABK)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABL,ABK)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABK,ABL,ABJ)
+[STACK] CHECK CONDITION: NextToFerry(ABL,ABK)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABL,ABM,ABK)
+[STACK] CHECK CONDITION: FirstDock(ABL)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABK)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABM,ABL)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABL,ABM,ABK)
+[STACK] CHECK CONDITION: NextToFerry(ABM,ABL)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABM,ABN,ABL)
+[STACK] CHECK CONDITION: FirstDock(ABM)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABL)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABN,ABM)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABM,ABN,ABL)
+[STACK] CHECK CONDITION: NextToFerry(ABN,ABM)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABN,ABO,ABM)
+[STACK] CHECK CONDITION: FirstDock(ABN)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABM)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABO,ABN)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABN,ABO,ABM)
+[STACK] CHECK CONDITION: NextToFerry(ABO,ABN)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABO,ABP,ABN)
+[STACK] CHECK CONDITION: FirstDock(ABO)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABN)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABP,ABO)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABO,ABP,ABN)
+[STACK] CHECK CONDITION: NextToFerry(ABP,ABO)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABP,ABQ,ABO)
+[STACK] CHECK CONDITION: FirstDock(ABP)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABO)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABQ,ABP)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABP,ABQ,ABO)
+[STACK] CHECK CONDITION: NextToFerry(ABQ,ABP)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABQ,ABR,ABP)
+[STACK] CHECK CONDITION: FirstDock(ABQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABP)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABR,ABQ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABQ,ABR,ABP)
+[STACK] CHECK CONDITION: NextToFerry(ABR,ABQ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABR,ABS,ABQ)
+[STACK] CHECK CONDITION: FirstDock(ABR)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABS,ABR)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABR,ABS,ABQ)
+[STACK] CHECK CONDITION: NextToFerry(ABS,ABR)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABS,ABT,ABR)
+[STACK] CHECK CONDITION: FirstDock(ABS)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABR)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABT,ABS)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABS,ABT,ABR)
+[STACK] CHECK CONDITION: NextToFerry(ABT,ABS)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABT,ABU,ABS)
+[STACK] CHECK CONDITION: FirstDock(ABT)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABS)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABU,ABT)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABT,ABU,ABS)
+[STACK] CHECK CONDITION: NextToFerry(ABU,ABT)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABU,ABV,ABT)
+[STACK] CHECK CONDITION: FirstDock(ABU)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABT)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABV,ABU)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABU,ABV,ABT)
+[STACK] CHECK CONDITION: NextToFerry(ABV,ABU)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABV,ABW,ABU)
+[STACK] CHECK CONDITION: FirstDock(ABV)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABU)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABW,ABV)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABV,ABW,ABU)
+[STACK] CHECK CONDITION: NextToFerry(ABW,ABV)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABW,ABX,ABV)
+[STACK] CHECK CONDITION: FirstDock(ABW)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABV)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABX,ABW)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABW,ABX,ABV)
+[STACK] CHECK CONDITION: NextToFerry(ABX,ABW)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABX,ABY,ABW)
+[STACK] CHECK CONDITION: FirstDock(ABX)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABW)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABY,ABX)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABX,ABY,ABW)
+[STACK] CHECK CONDITION: NextToFerry(ABY,ABX)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABY,ABZ,ABX)
+[STACK] CHECK CONDITION: FirstDock(ABY)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABX)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ABZ,ABY)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABY,ABZ,ABX)
+[STACK] CHECK CONDITION: NextToFerry(ABZ,ABY)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ABZ,ACA,ABY)
+[STACK] CHECK CONDITION: FirstDock(ABZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABY)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACA,ABZ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ABZ,ACA,ABY)
+[STACK] CHECK CONDITION: NextToFerry(ACA,ABZ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACA,ACB,ABZ)
+[STACK] CHECK CONDITION: FirstDock(ACA)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ABZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACB,ACA)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACA,ACB,ABZ)
+[STACK] CHECK CONDITION: NextToFerry(ACB,ACA)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACB,ACC,ACA)
+[STACK] CHECK CONDITION: FirstDock(ACB)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACA)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACC,ACB)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACB,ACC,ACA)
+[STACK] CHECK CONDITION: NextToFerry(ACC,ACB)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACC,ACD,ACB)
+[STACK] CHECK CONDITION: FirstDock(ACC)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACB)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACD,ACC)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACC,ACD,ACB)
+[STACK] CHECK CONDITION: NextToFerry(ACD,ACC)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACD,ACE,ACC)
+[STACK] CHECK CONDITION: FirstDock(ACD)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACC)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACE,ACD)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACD,ACE,ACC)
+[STACK] CHECK CONDITION: NextToFerry(ACE,ACD)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACE,ACF,ACD)
+[STACK] CHECK CONDITION: FirstDock(ACE)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACD)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACF,ACE)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACE,ACF,ACD)
+[STACK] CHECK CONDITION: NextToFerry(ACF,ACE)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACF,ACG,ACE)
+[STACK] CHECK CONDITION: FirstDock(ACF)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACE)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACG,ACF)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACF,ACG,ACE)
+[STACK] CHECK CONDITION: NextToFerry(ACG,ACF)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACG,ACH,ACF)
+[STACK] CHECK CONDITION: FirstDock(ACG)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACF)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACH,ACG)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACG,ACH,ACF)
+[STACK] CHECK CONDITION: NextToFerry(ACH,ACG)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACH,ACI,ACG)
+[STACK] CHECK CONDITION: FirstDock(ACH)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACG)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACI,ACH)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACH,ACI,ACG)
+[STACK] CHECK CONDITION: NextToFerry(ACI,ACH)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACI,ACJ,ACH)
+[STACK] CHECK CONDITION: FirstDock(ACI)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACH)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACJ,ACI)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACI,ACJ,ACH)
+[STACK] CHECK CONDITION: NextToFerry(ACJ,ACI)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACJ,ACK,ACI)
+[STACK] CHECK CONDITION: FirstDock(ACJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACI)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACK,ACJ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACJ,ACK,ACI)
+[STACK] CHECK CONDITION: NextToFerry(ACK,ACJ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACK,ACL,ACJ)
+[STACK] CHECK CONDITION: FirstDock(ACK)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACL,ACK)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACK,ACL,ACJ)
+[STACK] CHECK CONDITION: NextToFerry(ACL,ACK)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACL,ACM,ACK)
+[STACK] CHECK CONDITION: FirstDock(ACL)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACK)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACM,ACL)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACL,ACM,ACK)
+[STACK] CHECK CONDITION: NextToFerry(ACM,ACL)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACM,ACN,ACL)
+[STACK] CHECK CONDITION: FirstDock(ACM)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACL)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACN,ACM)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACM,ACN,ACL)
+[STACK] CHECK CONDITION: NextToFerry(ACN,ACM)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACN,ACO,ACM)
+[STACK] CHECK CONDITION: FirstDock(ACN)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACM)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACO,ACN)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACN,ACO,ACM)
+[STACK] CHECK CONDITION: NextToFerry(ACO,ACN)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACO,ACP,ACN)
+[STACK] CHECK CONDITION: FirstDock(ACO)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACN)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACP,ACO)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACO,ACP,ACN)
+[STACK] CHECK CONDITION: NextToFerry(ACP,ACO)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACP,ACQ,ACO)
+[STACK] CHECK CONDITION: FirstDock(ACP)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACO)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACQ,ACP)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACP,ACQ,ACO)
+[STACK] CHECK CONDITION: NextToFerry(ACQ,ACP)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACQ,ACR,ACP)
+[STACK] CHECK CONDITION: FirstDock(ACQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACP)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACR,ACQ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACQ,ACR,ACP)
+[STACK] CHECK CONDITION: NextToFerry(ACR,ACQ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACR,ACS,ACQ)
+[STACK] CHECK CONDITION: FirstDock(ACR)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACS,ACR)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACR,ACS,ACQ)
+[STACK] CHECK CONDITION: NextToFerry(ACS,ACR)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACS,ACT,ACR)
+[STACK] CHECK CONDITION: FirstDock(ACS)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACR)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACT,ACS)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACS,ACT,ACR)
+[STACK] CHECK CONDITION: NextToFerry(ACT,ACS)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACT,ACU,ACS)
+[STACK] CHECK CONDITION: FirstDock(ACT)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACS)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACU,ACT)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACT,ACU,ACS)
+[STACK] CHECK CONDITION: NextToFerry(ACU,ACT)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACU,ACV,ACT)
+[STACK] CHECK CONDITION: FirstDock(ACU)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACT)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACV,ACU)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACU,ACV,ACT)
+[STACK] CHECK CONDITION: NextToFerry(ACV,ACU)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACV,ACW,ACU)
+[STACK] CHECK CONDITION: FirstDock(ACV)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACU)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACW,ACV)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACV,ACW,ACU)
+[STACK] CHECK CONDITION: NextToFerry(ACW,ACV)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACW,ACX,ACV)
+[STACK] CHECK CONDITION: FirstDock(ACW)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACV)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACX,ACW)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACW,ACX,ACV)
+[STACK] CHECK CONDITION: NextToFerry(ACX,ACW)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACX,ACY,ACW)
+[STACK] CHECK CONDITION: FirstDock(ACX)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACW)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACY,ACX)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACX,ACY,ACW)
+[STACK] CHECK CONDITION: NextToFerry(ACY,ACX)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACY,ACZ,ACX)
+[STACK] CHECK CONDITION: FirstDock(ACY)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACX)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ACZ,ACY)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACY,ACZ,ACX)
+[STACK] CHECK CONDITION: NextToFerry(ACZ,ACY)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ACZ,ADA,ACY)
+[STACK] CHECK CONDITION: FirstDock(ACZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACY)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADA,ACZ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ACZ,ADA,ACY)
+[STACK] CHECK CONDITION: NextToFerry(ADA,ACZ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADA,ADB,ACZ)
+[STACK] CHECK CONDITION: FirstDock(ADA)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ACZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADB,ADA)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADA,ADB,ACZ)
+[STACK] CHECK CONDITION: NextToFerry(ADB,ADA)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADB,ADC,ADA)
+[STACK] CHECK CONDITION: FirstDock(ADB)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADA)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADC,ADB)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADB,ADC,ADA)
+[STACK] CHECK CONDITION: NextToFerry(ADC,ADB)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADC,ADD,ADB)
+[STACK] CHECK CONDITION: FirstDock(ADC)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADB)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADD,ADC)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADC,ADD,ADB)
+[STACK] CHECK CONDITION: NextToFerry(ADD,ADC)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADD,ADE,ADC)
+[STACK] CHECK CONDITION: FirstDock(ADD)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADC)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADE,ADD)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADD,ADE,ADC)
+[STACK] CHECK CONDITION: NextToFerry(ADE,ADD)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADE,ADF,ADD)
+[STACK] CHECK CONDITION: FirstDock(ADE)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADD)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADF,ADE)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADE,ADF,ADD)
+[STACK] CHECK CONDITION: NextToFerry(ADF,ADE)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADF,ADG,ADE)
+[STACK] CHECK CONDITION: FirstDock(ADF)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADE)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADG,ADF)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADF,ADG,ADE)
+[STACK] CHECK CONDITION: NextToFerry(ADG,ADF)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADG,ADH,ADF)
+[STACK] CHECK CONDITION: FirstDock(ADG)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADF)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADH,ADG)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADG,ADH,ADF)
+[STACK] CHECK CONDITION: NextToFerry(ADH,ADG)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADH,ADI,ADG)
+[STACK] CHECK CONDITION: FirstDock(ADH)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADG)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADI,ADH)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADH,ADI,ADG)
+[STACK] CHECK CONDITION: NextToFerry(ADI,ADH)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADI,ADJ,ADH)
+[STACK] CHECK CONDITION: FirstDock(ADI)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADH)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADJ,ADI)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADI,ADJ,ADH)
+[STACK] CHECK CONDITION: NextToFerry(ADJ,ADI)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADJ,ADK,ADI)
+[STACK] CHECK CONDITION: FirstDock(ADJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADI)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADK,ADJ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADJ,ADK,ADI)
+[STACK] CHECK CONDITION: NextToFerry(ADK,ADJ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADK,ADL,ADJ)
+[STACK] CHECK CONDITION: FirstDock(ADK)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADL,ADK)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADK,ADL,ADJ)
+[STACK] CHECK CONDITION: NextToFerry(ADL,ADK)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADL,ADM,ADK)
+[STACK] CHECK CONDITION: FirstDock(ADL)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADK)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADM,ADL)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADL,ADM,ADK)
+[STACK] CHECK CONDITION: NextToFerry(ADM,ADL)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADM,ADN,ADL)
+[STACK] CHECK CONDITION: FirstDock(ADM)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADL)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADN,ADM)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADM,ADN,ADL)
+[STACK] CHECK CONDITION: NextToFerry(ADN,ADM)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADN,ADO,ADM)
+[STACK] CHECK CONDITION: FirstDock(ADN)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADM)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADO,ADN)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADN,ADO,ADM)
+[STACK] CHECK CONDITION: NextToFerry(ADO,ADN)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADO,ADP,ADN)
+[STACK] CHECK CONDITION: FirstDock(ADO)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADN)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADP,ADO)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADO,ADP,ADN)
+[STACK] CHECK CONDITION: NextToFerry(ADP,ADO)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADP,ADQ,ADO)
+[STACK] CHECK CONDITION: FirstDock(ADP)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADO)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADQ,ADP)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADP,ADQ,ADO)
+[STACK] CHECK CONDITION: NextToFerry(ADQ,ADP)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADQ,ADR,ADP)
+[STACK] CHECK CONDITION: FirstDock(ADQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADP)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADR,ADQ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADQ,ADR,ADP)
+[STACK] CHECK CONDITION: NextToFerry(ADR,ADQ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADR,ADS,ADQ)
+[STACK] CHECK CONDITION: FirstDock(ADR)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADS,ADR)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADR,ADS,ADQ)
+[STACK] CHECK CONDITION: NextToFerry(ADS,ADR)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADS,ADT,ADR)
+[STACK] CHECK CONDITION: FirstDock(ADS)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADR)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADT,ADS)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADS,ADT,ADR)
+[STACK] CHECK CONDITION: NextToFerry(ADT,ADS)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADT,ADU,ADS)
+[STACK] CHECK CONDITION: FirstDock(ADT)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADS)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADU,ADT)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADT,ADU,ADS)
+[STACK] CHECK CONDITION: NextToFerry(ADU,ADT)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADU,ADV,ADT)
+[STACK] CHECK CONDITION: FirstDock(ADU)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADT)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADV,ADU)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADU,ADV,ADT)
+[STACK] CHECK CONDITION: NextToFerry(ADV,ADU)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADV,ADW,ADU)
+[STACK] CHECK CONDITION: FirstDock(ADV)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADU)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADW,ADV)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADV,ADW,ADU)
+[STACK] CHECK CONDITION: NextToFerry(ADW,ADV)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADW,ADX,ADV)
+[STACK] CHECK CONDITION: FirstDock(ADW)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADV)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADX,ADW)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADW,ADX,ADV)
+[STACK] CHECK CONDITION: NextToFerry(ADX,ADW)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADX,ADY,ADW)
+[STACK] CHECK CONDITION: FirstDock(ADX)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADW)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADY,ADX)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADX,ADY,ADW)
+[STACK] CHECK CONDITION: NextToFerry(ADY,ADX)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADY,ADZ,ADX)
+[STACK] CHECK CONDITION: FirstDock(ADY)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADX)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(ADZ,ADY)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADY,ADZ,ADX)
+[STACK] CHECK CONDITION: NextToFerry(ADZ,ADY)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(ADZ,AEA,ADY)
+[STACK] CHECK CONDITION: FirstDock(ADZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADY)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEA,ADZ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(ADZ,AEA,ADY)
+[STACK] CHECK CONDITION: NextToFerry(AEA,ADZ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEA,AEB,ADZ)
+[STACK] CHECK CONDITION: FirstDock(AEA)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(ADZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEB,AEA)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEA,AEB,ADZ)
+[STACK] CHECK CONDITION: NextToFerry(AEB,AEA)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEB,AEC,AEA)
+[STACK] CHECK CONDITION: FirstDock(AEB)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEA)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEC,AEB)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEB,AEC,AEA)
+[STACK] CHECK CONDITION: NextToFerry(AEC,AEB)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEC,AED,AEB)
+[STACK] CHECK CONDITION: FirstDock(AEC)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEB)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AED,AEC)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEC,AED,AEB)
+[STACK] CHECK CONDITION: NextToFerry(AED,AEC)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AED,AEE,AEC)
+[STACK] CHECK CONDITION: FirstDock(AED)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEC)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEE,AED)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AED,AEE,AEC)
+[STACK] CHECK CONDITION: NextToFerry(AEE,AED)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEE,AEF,AED)
+[STACK] CHECK CONDITION: FirstDock(AEE)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AED)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEF,AEE)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEE,AEF,AED)
+[STACK] CHECK CONDITION: NextToFerry(AEF,AEE)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEF,AEG,AEE)
+[STACK] CHECK CONDITION: FirstDock(AEF)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEE)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEG,AEF)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEF,AEG,AEE)
+[STACK] CHECK CONDITION: NextToFerry(AEG,AEF)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEG,AEH,AEF)
+[STACK] CHECK CONDITION: FirstDock(AEG)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEF)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEH,AEG)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEG,AEH,AEF)
+[STACK] CHECK CONDITION: NextToFerry(AEH,AEG)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEH,AEI,AEG)
+[STACK] CHECK CONDITION: FirstDock(AEH)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEG)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEI,AEH)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEH,AEI,AEG)
+[STACK] CHECK CONDITION: NextToFerry(AEI,AEH)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEI,AEJ,AEH)
+[STACK] CHECK CONDITION: FirstDock(AEI)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEH)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEJ,AEI)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEI,AEJ,AEH)
+[STACK] CHECK CONDITION: NextToFerry(AEJ,AEI)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEJ,AEK,AEI)
+[STACK] CHECK CONDITION: FirstDock(AEJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEI)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEK,AEJ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEJ,AEK,AEI)
+[STACK] CHECK CONDITION: NextToFerry(AEK,AEJ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEK,AEL,AEJ)
+[STACK] CHECK CONDITION: FirstDock(AEK)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEL,AEK)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEK,AEL,AEJ)
+[STACK] CHECK CONDITION: NextToFerry(AEL,AEK)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEL,AEM,AEK)
+[STACK] CHECK CONDITION: FirstDock(AEL)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEK)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEM,AEL)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEL,AEM,AEK)
+[STACK] CHECK CONDITION: NextToFerry(AEM,AEL)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEM,AEN,AEL)
+[STACK] CHECK CONDITION: FirstDock(AEM)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEL)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEN,AEM)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEM,AEN,AEL)
+[STACK] CHECK CONDITION: NextToFerry(AEN,AEM)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEN,AEO,AEM)
+[STACK] CHECK CONDITION: FirstDock(AEN)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEM)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEO,AEN)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEN,AEO,AEM)
+[STACK] CHECK CONDITION: NextToFerry(AEO,AEN)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEO,AEP,AEN)
+[STACK] CHECK CONDITION: FirstDock(AEO)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEN)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEP,AEO)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEO,AEP,AEN)
+[STACK] CHECK CONDITION: NextToFerry(AEP,AEO)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEP,AEQ,AEO)
+[STACK] CHECK CONDITION: FirstDock(AEP)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEO)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEQ,AEP)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEP,AEQ,AEO)
+[STACK] CHECK CONDITION: NextToFerry(AEQ,AEP)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEQ,AER,AEP)
+[STACK] CHECK CONDITION: FirstDock(AEQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEP)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AER,AEQ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEQ,AER,AEP)
+[STACK] CHECK CONDITION: NextToFerry(AER,AEQ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AER,AES,AEQ)
+[STACK] CHECK CONDITION: FirstDock(AER)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AES,AER)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AER,AES,AEQ)
+[STACK] CHECK CONDITION: NextToFerry(AES,AER)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AES,AET,AER)
+[STACK] CHECK CONDITION: FirstDock(AES)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AER)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AET,AES)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AES,AET,AER)
+[STACK] CHECK CONDITION: NextToFerry(AET,AES)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AET,AEU,AES)
+[STACK] CHECK CONDITION: FirstDock(AET)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AES)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEU,AET)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AET,AEU,AES)
+[STACK] CHECK CONDITION: NextToFerry(AEU,AET)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEU,AEV,AET)
+[STACK] CHECK CONDITION: FirstDock(AEU)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AET)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEV,AEU)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEU,AEV,AET)
+[STACK] CHECK CONDITION: NextToFerry(AEV,AEU)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEV,AEW,AEU)
+[STACK] CHECK CONDITION: FirstDock(AEV)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEU)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEW,AEV)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEV,AEW,AEU)
+[STACK] CHECK CONDITION: NextToFerry(AEW,AEV)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEW,AEX,AEV)
+[STACK] CHECK CONDITION: FirstDock(AEW)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEV)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEX,AEW)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEW,AEX,AEV)
+[STACK] CHECK CONDITION: NextToFerry(AEX,AEW)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEX,AEY,AEW)
+[STACK] CHECK CONDITION: FirstDock(AEX)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEW)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEY,AEX)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEX,AEY,AEW)
+[STACK] CHECK CONDITION: NextToFerry(AEY,AEX)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEY,AEZ,AEX)
+[STACK] CHECK CONDITION: FirstDock(AEY)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEX)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AEZ,AEY)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEY,AEZ,AEX)
+[STACK] CHECK CONDITION: NextToFerry(AEZ,AEY)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AEZ,AFA,AEY)
+[STACK] CHECK CONDITION: FirstDock(AEZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEY)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFA,AEZ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AEZ,AFA,AEY)
+[STACK] CHECK CONDITION: NextToFerry(AFA,AEZ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFA,AFB,AEZ)
+[STACK] CHECK CONDITION: FirstDock(AFA)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AEZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFB,AFA)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFA,AFB,AEZ)
+[STACK] CHECK CONDITION: NextToFerry(AFB,AFA)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFB,AFC,AFA)
+[STACK] CHECK CONDITION: FirstDock(AFB)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFA)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFC,AFB)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFB,AFC,AFA)
+[STACK] CHECK CONDITION: NextToFerry(AFC,AFB)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFC,AFD,AFB)
+[STACK] CHECK CONDITION: FirstDock(AFC)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFB)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFD,AFC)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFC,AFD,AFB)
+[STACK] CHECK CONDITION: NextToFerry(AFD,AFC)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFD,AFE,AFC)
+[STACK] CHECK CONDITION: FirstDock(AFD)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFC)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFE,AFD)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFD,AFE,AFC)
+[STACK] CHECK CONDITION: NextToFerry(AFE,AFD)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFE,AFF,AFD)
+[STACK] CHECK CONDITION: FirstDock(AFE)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFD)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFF,AFE)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFE,AFF,AFD)
+[STACK] CHECK CONDITION: NextToFerry(AFF,AFE)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFF,AFG,AFE)
+[STACK] CHECK CONDITION: FirstDock(AFF)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFE)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFG,AFF)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFF,AFG,AFE)
+[STACK] CHECK CONDITION: NextToFerry(AFG,AFF)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFG,AFH,AFF)
+[STACK] CHECK CONDITION: FirstDock(AFG)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFF)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFH,AFG)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFG,AFH,AFF)
+[STACK] CHECK CONDITION: NextToFerry(AFH,AFG)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFH,AFI,AFG)
+[STACK] CHECK CONDITION: FirstDock(AFH)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFG)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFI,AFH)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFH,AFI,AFG)
+[STACK] CHECK CONDITION: NextToFerry(AFI,AFH)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFI,AFJ,AFH)
+[STACK] CHECK CONDITION: FirstDock(AFI)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFH)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFJ,AFI)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFI,AFJ,AFH)
+[STACK] CHECK CONDITION: NextToFerry(AFJ,AFI)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFJ,AFK,AFI)
+[STACK] CHECK CONDITION: FirstDock(AFJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFI)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFK,AFJ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFJ,AFK,AFI)
+[STACK] CHECK CONDITION: NextToFerry(AFK,AFJ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFK,AFL,AFJ)
+[STACK] CHECK CONDITION: FirstDock(AFK)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFL,AFK)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFK,AFL,AFJ)
+[STACK] CHECK CONDITION: NextToFerry(AFL,AFK)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFL,AFM,AFK)
+[STACK] CHECK CONDITION: FirstDock(AFL)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFK)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFM,AFL)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFL,AFM,AFK)
+[STACK] CHECK CONDITION: NextToFerry(AFM,AFL)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFM,AFN,AFL)
+[STACK] CHECK CONDITION: FirstDock(AFM)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFL)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFN,AFM)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFM,AFN,AFL)
+[STACK] CHECK CONDITION: NextToFerry(AFN,AFM)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFN,AFO,AFM)
+[STACK] CHECK CONDITION: FirstDock(AFN)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFM)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFO,AFN)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFN,AFO,AFM)
+[STACK] CHECK CONDITION: NextToFerry(AFO,AFN)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFO,AFP,AFN)
+[STACK] CHECK CONDITION: FirstDock(AFO)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFN)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFP,AFO)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFO,AFP,AFN)
+[STACK] CHECK CONDITION: NextToFerry(AFP,AFO)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFP,AFQ,AFO)
+[STACK] CHECK CONDITION: FirstDock(AFP)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFO)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFQ,AFP)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFP,AFQ,AFO)
+[STACK] CHECK CONDITION: NextToFerry(AFQ,AFP)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFQ,AFR,AFP)
+[STACK] CHECK CONDITION: FirstDock(AFQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFP)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFR,AFQ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFQ,AFR,AFP)
+[STACK] CHECK CONDITION: NextToFerry(AFR,AFQ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFR,AFS,AFQ)
+[STACK] CHECK CONDITION: FirstDock(AFR)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFS,AFR)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFR,AFS,AFQ)
+[STACK] CHECK CONDITION: NextToFerry(AFS,AFR)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFS,AFT,AFR)
+[STACK] CHECK CONDITION: FirstDock(AFS)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFR)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFT,AFS)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFS,AFT,AFR)
+[STACK] CHECK CONDITION: NextToFerry(AFT,AFS)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFT,AFU,AFS)
+[STACK] CHECK CONDITION: FirstDock(AFT)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFS)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFU,AFT)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFT,AFU,AFS)
+[STACK] CHECK CONDITION: NextToFerry(AFU,AFT)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFU,AFV,AFT)
+[STACK] CHECK CONDITION: FirstDock(AFU)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFT)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFV,AFU)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFU,AFV,AFT)
+[STACK] CHECK CONDITION: NextToFerry(AFV,AFU)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFV,AFW,AFU)
+[STACK] CHECK CONDITION: FirstDock(AFV)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFU)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFW,AFV)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFV,AFW,AFU)
+[STACK] CHECK CONDITION: NextToFerry(AFW,AFV)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFW,AFX,AFV)
+[STACK] CHECK CONDITION: FirstDock(AFW)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFV)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFX,AFW)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFW,AFX,AFV)
+[STACK] CHECK CONDITION: NextToFerry(AFX,AFW)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFX,AFY,AFW)
+[STACK] CHECK CONDITION: FirstDock(AFX)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFW)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFY,AFX)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFX,AFY,AFW)
+[STACK] CHECK CONDITION: NextToFerry(AFY,AFX)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFY,AFZ,AFX)
+[STACK] CHECK CONDITION: FirstDock(AFY)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFX)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AFZ,AFY)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFY,AFZ,AFX)
+[STACK] CHECK CONDITION: NextToFerry(AFZ,AFY)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AFZ,AGA,AFY)
+[STACK] CHECK CONDITION: FirstDock(AFZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFY)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGA,AFZ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AFZ,AGA,AFY)
+[STACK] CHECK CONDITION: NextToFerry(AGA,AFZ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGA,AGB,AFZ)
+[STACK] CHECK CONDITION: FirstDock(AGA)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AFZ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGB,AGA)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGA,AGB,AFZ)
+[STACK] CHECK CONDITION: NextToFerry(AGB,AGA)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGB,AGC,AGA)
+[STACK] CHECK CONDITION: FirstDock(AGB)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGA)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGC,AGB)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGB,AGC,AGA)
+[STACK] CHECK CONDITION: NextToFerry(AGC,AGB)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGC,AGD,AGB)
+[STACK] CHECK CONDITION: FirstDock(AGC)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGB)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGD,AGC)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGC,AGD,AGB)
+[STACK] CHECK CONDITION: NextToFerry(AGD,AGC)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGD,AGE,AGC)
+[STACK] CHECK CONDITION: FirstDock(AGD)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGC)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGE,AGD)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGD,AGE,AGC)
+[STACK] CHECK CONDITION: NextToFerry(AGE,AGD)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGE,AGF,AGD)
+[STACK] CHECK CONDITION: FirstDock(AGE)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGD)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGF,AGE)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGE,AGF,AGD)
+[STACK] CHECK CONDITION: NextToFerry(AGF,AGE)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGF,AGG,AGE)
+[STACK] CHECK CONDITION: FirstDock(AGF)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGE)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGG,AGF)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGF,AGG,AGE)
+[STACK] CHECK CONDITION: NextToFerry(AGG,AGF)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGG,AGH,AGF)
+[STACK] CHECK CONDITION: FirstDock(AGG)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGF)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGH,AGG)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGG,AGH,AGF)
+[STACK] CHECK CONDITION: NextToFerry(AGH,AGG)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGH,AGI,AGG)
+[STACK] CHECK CONDITION: FirstDock(AGH)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGG)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGI,AGH)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGH,AGI,AGG)
+[STACK] CHECK CONDITION: NextToFerry(AGI,AGH)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGI,AGJ,AGH)
+[STACK] CHECK CONDITION: FirstDock(AGI)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGH)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGJ,AGI)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGI,AGJ,AGH)
+[STACK] CHECK CONDITION: NextToFerry(AGJ,AGI)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGJ,AGK,AGI)
+[STACK] CHECK CONDITION: FirstDock(AGJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGI)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGK,AGJ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGJ,AGK,AGI)
+[STACK] CHECK CONDITION: NextToFerry(AGK,AGJ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGK,AGL,AGJ)
+[STACK] CHECK CONDITION: FirstDock(AGK)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGJ)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGL,AGK)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGK,AGL,AGJ)
+[STACK] CHECK CONDITION: NextToFerry(AGL,AGK)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGL,AGM,AGK)
+[STACK] CHECK CONDITION: FirstDock(AGL)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGK)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGM,AGL)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGL,AGM,AGK)
+[STACK] CHECK CONDITION: NextToFerry(AGM,AGL)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGM,AGN,AGL)
+[STACK] CHECK CONDITION: FirstDock(AGM)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGL)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGN,AGM)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGM,AGN,AGL)
+[STACK] CHECK CONDITION: NextToFerry(AGN,AGM)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGN,AGO,AGM)
+[STACK] CHECK CONDITION: FirstDock(AGN)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGM)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGO,AGN)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGN,AGO,AGM)
+[STACK] CHECK CONDITION: NextToFerry(AGO,AGN)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGO,AGP,AGN)
+[STACK] CHECK CONDITION: FirstDock(AGO)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGN)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGP,AGO)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGO,AGP,AGN)
+[STACK] CHECK CONDITION: NextToFerry(AGP,AGO)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGP,AGQ,AGO)
+[STACK] CHECK CONDITION: FirstDock(AGP)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGO)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGQ,AGP)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGP,AGQ,AGO)
+[STACK] CHECK CONDITION: NextToFerry(AGQ,AGP)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(AGQ,AGR,AGP)
+[STACK] CHECK CONDITION: FirstDock(AGQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(AGP)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(AGR,AGQ)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(AGQ,AGR,AGP)
+[STACK] CHECK CONDITION: NextToFerry(AGR,AGQ)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo1(AGR,AGQ)
+[STACK] CHECK CONDITION: LastFerry(AGQ)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastDock(AGR)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(AGR)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo1(AGR,AGQ)
+[STACK] CHECK CONDITION: LastFerry(AGR)
+Condition satisfied.
+Algorithm has finished! Found plan with 399 operators.
+Plan: ChangeToEmptyLine(AGR,AGQ),ChangeLine(AGQ,AGP,AGR),ChangeLine(AGP,AGO,AGQ),ChangeLine(AGO,AGN,AGP),ChangeLine(AGN,AGM,AGO),ChangeLine(AGM,AGL,AGN),ChangeLine(AGL,AGK,AGM),ChangeLine(AGK,AGJ,AGL),ChangeLine(AGJ,AGI,AGK),ChangeLine(AGI,AGH,AGJ),ChangeLine(AGH,AGG,AGI),ChangeLine(AGG,AGF,AGH),ChangeLine(AGF,AGE,AGG),ChangeLine(AGE,AGD,AGF),ChangeLine(AGD,AGC,AGE),ChangeLine(AGC,AGB,AGD),ChangeLine(AGB,AGA,AGC),ChangeLine(AGA,AFZ,AGB),ChangeLine(AFZ,AFY,AGA),ChangeLine(AFY,AFX,AFZ),ChangeLine(AFX,AFW,AFY),ChangeLine(AFW,AFV,AFX),ChangeLine(AFV,AFU,AFW),ChangeLine(AFU,AFT,AFV),ChangeLine(AFT,AFS,AFU),ChangeLine(AFS,AFR,AFT),ChangeLine(AFR,AFQ,AFS),ChangeLine(AFQ,AFP,AFR),ChangeLine(AFP,AFO,AFQ),ChangeLine(AFO,AFN,AFP),ChangeLine(AFN,AFM,AFO),ChangeLine(AFM,AFL,AFN),ChangeLine(AFL,AFK,AFM),ChangeLine(AFK,AFJ,AFL),ChangeLine(AFJ,AFI,AFK),ChangeLine(AFI,AFH,AFJ),ChangeLine(AFH,AFG,AFI),ChangeLine(AFG,AFF,AFH),ChangeLine(AFF,AFE,AFG),ChangeLine(AFE,AFD,AFF),ChangeLine(AFD,AFC,AFE),ChangeLine(AFC,AFB,AFD),ChangeLine(AFB,AFA,AFC),ChangeLine(AFA,AEZ,AFB),ChangeLine(AEZ,AEY,AFA),ChangeLine(AEY,AEX,AEZ),ChangeLine(AEX,AEW,AEY),ChangeLine(AEW,AEV,AEX),ChangeLine(AEV,AEU,AEW),ChangeLine(AEU,AET,AEV),ChangeLine(AET,AES,AEU),ChangeLine(AES,AER,AET),ChangeLine(AER,AEQ,AES),ChangeLine(AEQ,AEP,AER),ChangeLine(AEP,AEO,AEQ),ChangeLine(AEO,AEN,AEP),ChangeLine(AEN,AEM,AEO),ChangeLine(AEM,AEL,AEN),ChangeLine(AEL,AEK,AEM),ChangeLine(AEK,AEJ,AEL),ChangeLine(AEJ,AEI,AEK),ChangeLine(AEI,AEH,AEJ),ChangeLine(AEH,AEG,AEI),ChangeLine(AEG,AEF,AEH),ChangeLine(AEF,AEE,AEG),ChangeLine(AEE,AED,AEF),ChangeLine(AED,AEC,AEE),ChangeLine(AEC,AEB,AED),ChangeLine(AEB,AEA,AEC),ChangeLine(AEA,ADZ,AEB),ChangeLine(ADZ,ADY,AEA),ChangeLine(ADY,ADX,ADZ),ChangeLine(ADX,ADW,ADY),ChangeLine(ADW,ADV,ADX),ChangeLine(ADV,ADU,ADW),ChangeLine(ADU,ADT,ADV),ChangeLine(ADT,ADS,ADU),ChangeLine(ADS,ADR,ADT),ChangeLine(ADR,ADQ,ADS),ChangeLine(ADQ,ADP,ADR),ChangeLine(ADP,ADO,ADQ),ChangeLine(ADO,ADN,ADP),ChangeLine(ADN,ADM,ADO),ChangeLine(ADM,ADL,ADN),ChangeLine(ADL,ADK,ADM),ChangeLine(ADK,ADJ,ADL),ChangeLine(ADJ,ADI,ADK),ChangeLine(ADI,ADH,ADJ),ChangeLine(ADH,ADG,ADI),ChangeLine(ADG,ADF,ADH),ChangeLine(ADF,ADE,ADG),ChangeLine(ADE,ADD,ADF),ChangeLine(ADD,ADC,ADE),ChangeLine(ADC,ADB,ADD),ChangeLine(ADB,ADA,ADC),ChangeLine(ADA,ACZ,ADB),ChangeLine(ACZ,ACY,ADA),ChangeLine(ACY,ACX,ACZ),ChangeLine(ACX,ACW,ACY),ChangeLine(ACW,ACV,ACX),ChangeLine(ACV,ACU,ACW),ChangeLine(ACU,ACT,ACV),ChangeLine(ACT,ACS,ACU),ChangeLine(ACS,ACR,ACT),ChangeLine(ACR,ACQ,ACS),ChangeLine(ACQ,ACP,ACR),ChangeLine(ACP,ACO,ACQ),ChangeLine(ACO,ACN,ACP),ChangeLine(ACN,ACM,ACO),ChangeLine(ACM,ACL,ACN),ChangeLine(ACL,ACK,ACM),ChangeLine(ACK,ACJ,ACL),ChangeLine(ACJ,ACI,ACK),ChangeLine(ACI,ACH,ACJ),ChangeLine(ACH,ACG,ACI),ChangeLine(ACG,ACF,ACH),ChangeLine(ACF,ACE,ACG),ChangeLine(ACE,ACD,ACF),ChangeLine(ACD,ACC,ACE),ChangeLine(ACC,ACB,ACD),ChangeLine(ACB,ACA,ACC),ChangeLine(ACA,ABZ,ACB),ChangeLine(ABZ,ABY,ACA),ChangeLine(ABY,ABX,ABZ),ChangeLine(ABX,ABW,ABY),ChangeLine(ABW,ABV,ABX),ChangeLine(ABV,ABU,ABW),ChangeLine(ABU,ABT,ABV),ChangeLine(ABT,ABS,ABU),ChangeLine(ABS,ABR,ABT),ChangeLine(ABR,ABQ,ABS),ChangeLine(ABQ,ABP,ABR),ChangeLine(ABP,ABO,ABQ),ChangeLine(ABO,ABN,ABP),ChangeLine(ABN,ABM,ABO),ChangeLine(ABM,ABL,ABN),ChangeLine(ABL,ABK,ABM),ChangeLine(ABK,ABJ,ABL),ChangeLine(ABJ,ABI,ABK),ChangeLine(ABI,ABH,ABJ),ChangeLine(ABH,ABG,ABI),ChangeLine(ABG,ABF,ABH),ChangeLine(ABF,ABE,ABG),ChangeLine(ABE,ABD,ABF),ChangeLine(ABD,ABC,ABE),ChangeLine(ABC,ABB,ABD),ChangeLine(ABB,ABA,ABC),ChangeLine(ABA,AAZ,ABB),ChangeLine(AAZ,AAY,ABA),ChangeLine(AAY,AAX,AAZ),ChangeLine(AAX,AAW,AAY),ChangeLine(AAW,AAV,AAX),ChangeLine(AAV,AAU,AAW),ChangeLine(AAU,AAT,AAV),ChangeLine(AAT,AAS,AAU),ChangeLine(AAS,AAR,AAT),ChangeLine(AAR,AAQ,AAS),ChangeLine(AAQ,AAP,AAR),ChangeLine(AAP,AAO,AAQ),ChangeLine(AAO,AAN,AAP),ChangeLine(AAN,AAM,AAO),ChangeLine(AAM,AAL,AAN),ChangeLine(AAL,AAK,AAM),ChangeLine(AAK,AAJ,AAL),ChangeLine(AAJ,AAI,AAK),ChangeLine(AAI,AAH,AAJ),ChangeLine(AAH,AAG,AAI),ChangeLine(AAG,AAF,AAH),ChangeLine(AAF,AAE,AAG),ChangeLine(AAE,AAD,AAF),ChangeLine(AAD,AAC,AAE),ChangeLine(AAC,AAB,AAD),ChangeLine(AAB,AAA,AAC),ChangeLine(AAA,Z,AAB),ChangeLine(Z,Y,AAA),ChangeLine(Y,X,Z),ChangeLine(X,W,Y),ChangeLine(W,V,X),ChangeLine(V,U,W),ChangeLine(U,T,V),ChangeLine(T,S,U),ChangeLine(S,R,T),ChangeLine(R,Q,S),ChangeLine(Q,P,R),ChangeLine(P,O,Q),ChangeLine(O,N,P),ChangeLine(N,M,O),ChangeLine(M,L,N),ChangeLine(L,K,M),ChangeLine(K,J,L),ChangeLine(J,I,K),ChangeLine(I,H,J),ChangeLine(H,G,I),ChangeLine(G,F,H),ChangeLine(F,E,G),ChangeLine(E,D,F),ChangeLine(D,C,E),ChangeLine(C,B,D),ChangeLine(B,A,C),BoardFirst1(A),BoardNextTo2(B,C,A),BoardNextTo2(C,D,B),BoardNextTo2(D,E,C),BoardNextTo2(E,F,D),BoardNextTo2(F,G,E),BoardNextTo2(G,H,F),BoardNextTo2(H,I,G),BoardNextTo2(I,J,H),BoardNextTo2(J,K,I),BoardNextTo2(K,L,J),BoardNextTo2(L,M,K),BoardNextTo2(M,N,L),BoardNextTo2(N,O,M),BoardNextTo2(O,P,N),BoardNextTo2(P,Q,O),BoardNextTo2(Q,R,P),BoardNextTo2(R,S,Q),BoardNextTo2(S,T,R),BoardNextTo2(T,U,S),BoardNextTo2(U,V,T),BoardNextTo2(V,W,U),BoardNextTo2(W,X,V),BoardNextTo2(X,Y,W),BoardNextTo2(Y,Z,X),BoardNextTo2(Z,AAA,Y),BoardNextTo2(AAA,AAB,Z),BoardNextTo2(AAB,AAC,AAA),BoardNextTo2(AAC,AAD,AAB),BoardNextTo2(AAD,AAE,AAC),BoardNextTo2(AAE,AAF,AAD),BoardNextTo2(AAF,AAG,AAE),BoardNextTo2(AAG,AAH,AAF),BoardNextTo2(AAH,AAI,AAG),BoardNextTo2(AAI,AAJ,AAH),BoardNextTo2(AAJ,AAK,AAI),BoardNextTo2(AAK,AAL,AAJ),BoardNextTo2(AAL,AAM,AAK),BoardNextTo2(AAM,AAN,AAL),BoardNextTo2(AAN,AAO,AAM),BoardNextTo2(AAO,AAP,AAN),BoardNextTo2(AAP,AAQ,AAO),BoardNextTo2(AAQ,AAR,AAP),BoardNextTo2(AAR,AAS,AAQ),BoardNextTo2(AAS,AAT,AAR),BoardNextTo2(AAT,AAU,AAS),BoardNextTo2(AAU,AAV,AAT),BoardNextTo2(AAV,AAW,AAU),BoardNextTo2(AAW,AAX,AAV),BoardNextTo2(AAX,AAY,AAW),BoardNextTo2(AAY,AAZ,AAX),BoardNextTo2(AAZ,ABA,AAY),BoardNextTo2(ABA,ABB,AAZ),BoardNextTo2(ABB,ABC,ABA),BoardNextTo2(ABC,ABD,ABB),BoardNextTo2(ABD,ABE,ABC),BoardNextTo2(ABE,ABF,ABD),BoardNextTo2(ABF,ABG,ABE),BoardNextTo2(ABG,ABH,ABF),BoardNextTo2(ABH,ABI,ABG),BoardNextTo2(ABI,ABJ,ABH),BoardNextTo2(ABJ,ABK,ABI),BoardNextTo2(ABK,ABL,ABJ),BoardNextTo2(ABL,ABM,ABK),BoardNextTo2(ABM,ABN,ABL),BoardNextTo2(ABN,ABO,ABM),BoardNextTo2(ABO,ABP,ABN),BoardNextTo2(ABP,ABQ,ABO),BoardNextTo2(ABQ,ABR,ABP),BoardNextTo2(ABR,ABS,ABQ),BoardNextTo2(ABS,ABT,ABR),BoardNextTo2(ABT,ABU,ABS),BoardNextTo2(ABU,ABV,ABT),BoardNextTo2(ABV,ABW,ABU),BoardNextTo2(ABW,ABX,ABV),BoardNextTo2(ABX,ABY,ABW),BoardNextTo2(ABY,ABZ,ABX),BoardNextTo2(ABZ,ACA,ABY),BoardNextTo2(ACA,ACB,ABZ),BoardNextTo2(ACB,ACC,ACA),BoardNextTo2(ACC,ACD,ACB),BoardNextTo2(ACD,ACE,ACC),BoardNextTo2(ACE,ACF,ACD),BoardNextTo2(ACF,ACG,ACE),BoardNextTo2(ACG,ACH,ACF),BoardNextTo2(ACH,ACI,ACG),BoardNextTo2(ACI,ACJ,ACH),BoardNextTo2(ACJ,ACK,ACI),BoardNextTo2(ACK,ACL,ACJ),BoardNextTo2(ACL,ACM,ACK),BoardNextTo2(ACM,ACN,ACL),BoardNextTo2(ACN,ACO,ACM),BoardNextTo2(ACO,ACP,ACN),BoardNextTo2(ACP,ACQ,ACO),BoardNextTo2(ACQ,ACR,ACP),BoardNextTo2(ACR,ACS,ACQ),BoardNextTo2(ACS,ACT,ACR),BoardNextTo2(ACT,ACU,ACS),BoardNextTo2(ACU,ACV,ACT),BoardNextTo2(ACV,ACW,ACU),BoardNextTo2(ACW,ACX,ACV),BoardNextTo2(ACX,ACY,ACW),BoardNextTo2(ACY,ACZ,ACX),BoardNextTo2(ACZ,ADA,ACY),BoardNextTo2(ADA,ADB,ACZ),BoardNextTo2(ADB,ADC,ADA),BoardNextTo2(ADC,ADD,ADB),BoardNextTo2(ADD,ADE,ADC),BoardNextTo2(ADE,ADF,ADD),BoardNextTo2(ADF,ADG,ADE),BoardNextTo2(ADG,ADH,ADF),BoardNextTo2(ADH,ADI,ADG),BoardNextTo2(ADI,ADJ,ADH),BoardNextTo2(ADJ,ADK,ADI),BoardNextTo2(ADK,ADL,ADJ),BoardNextTo2(ADL,ADM,ADK),BoardNextTo2(ADM,ADN,ADL),BoardNextTo2(ADN,ADO,ADM),BoardNextTo2(ADO,ADP,ADN),BoardNextTo2(ADP,ADQ,ADO),BoardNextTo2(ADQ,ADR,ADP),BoardNextTo2(ADR,ADS,ADQ),BoardNextTo2(ADS,ADT,ADR),BoardNextTo2(ADT,ADU,ADS),BoardNextTo2(ADU,ADV,ADT),BoardNextTo2(ADV,ADW,ADU),BoardNextTo2(ADW,ADX,ADV),BoardNextTo2(ADX,ADY,ADW),BoardNextTo2(ADY,ADZ,ADX),BoardNextTo2(ADZ,AEA,ADY),BoardNextTo2(AEA,AEB,ADZ),BoardNextTo2(AEB,AEC,AEA),BoardNextTo2(AEC,AED,AEB),BoardNextTo2(AED,AEE,AEC),BoardNextTo2(AEE,AEF,AED),BoardNextTo2(AEF,AEG,AEE),BoardNextTo2(AEG,AEH,AEF),BoardNextTo2(AEH,AEI,AEG),BoardNextTo2(AEI,AEJ,AEH),BoardNextTo2(AEJ,AEK,AEI),BoardNextTo2(AEK,AEL,AEJ),BoardNextTo2(AEL,AEM,AEK),BoardNextTo2(AEM,AEN,AEL),BoardNextTo2(AEN,AEO,AEM),BoardNextTo2(AEO,AEP,AEN),BoardNextTo2(AEP,AEQ,AEO),BoardNextTo2(AEQ,AER,AEP),BoardNextTo2(AER,AES,AEQ),BoardNextTo2(AES,AET,AER),BoardNextTo2(AET,AEU,AES),BoardNextTo2(AEU,AEV,AET),BoardNextTo2(AEV,AEW,AEU),BoardNextTo2(AEW,AEX,AEV),BoardNextTo2(AEX,AEY,AEW),BoardNextTo2(AEY,AEZ,AEX),BoardNextTo2(AEZ,AFA,AEY),BoardNextTo2(AFA,AFB,AEZ),BoardNextTo2(AFB,AFC,AFA),BoardNextTo2(AFC,AFD,AFB),BoardNextTo2(AFD,AFE,AFC),BoardNextTo2(AFE,AFF,AFD),BoardNextTo2(AFF,AFG,AFE),BoardNextTo2(AFG,AFH,AFF),BoardNextTo2(AFH,AFI,AFG),BoardNextTo2(AFI,AFJ,AFH),BoardNextTo2(AFJ,AFK,AFI),BoardNextTo2(AFK,AFL,AFJ),BoardNextTo2(AFL,AFM,AFK),BoardNextTo2(AFM,AFN,AFL),BoardNextTo2(AFN,AFO,AFM),BoardNextTo2(AFO,AFP,AFN),BoardNextTo2(AFP,AFQ,AFO),BoardNextTo2(AFQ,AFR,AFP),BoardNextTo2(AFR,AFS,AFQ),BoardNextTo2(AFS,AFT,AFR),BoardNextTo2(AFT,AFU,AFS),BoardNextTo2(AFU,AFV,AFT),BoardNextTo2(AFV,AFW,AFU),BoardNextTo2(AFW,AFX,AFV),BoardNextTo2(AFX,AFY,AFW),BoardNextTo2(AFY,AFZ,AFX),BoardNextTo2(AFZ,AGA,AFY),BoardNextTo2(AGA,AGB,AFZ),BoardNextTo2(AGB,AGC,AGA),BoardNextTo2(AGC,AGD,AGB),BoardNextTo2(AGD,AGE,AGC),BoardNextTo2(AGE,AGF,AGD),BoardNextTo2(AGF,AGG,AGE),BoardNextTo2(AGG,AGH,AGF),BoardNextTo2(AGH,AGI,AGG),BoardNextTo2(AGI,AGJ,AGH),BoardNextTo2(AGJ,AGK,AGI),BoardNextTo2(AGK,AGL,AGJ),BoardNextTo2(AGL,AGM,AGK),BoardNextTo2(AGM,AGN,AGL),BoardNextTo2(AGN,AGO,AGM),BoardNextTo2(AGO,AGP,AGN),BoardNextTo2(AGP,AGQ,AGO),BoardNextTo2(AGQ,AGR,AGP),BoardNextTo1(AGR,AGQ)
+Successfully written output file.

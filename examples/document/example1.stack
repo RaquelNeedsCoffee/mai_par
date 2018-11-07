@@ -1,0 +1,71 @@
+[STACK] CHECK CONDITION: FirstFerry(B)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardFirst2(B,C)
+[STACK] CHECK CONDITION: FirstDock(B)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(C,B)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardFirst2(B,C)
+[STACK] CHECK CONDITION: NextToFerry(D,B)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo2(D,E,B)
+[STACK] CHECK CONDITION: FirstDock(D)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(B)
+Condition satisfied.
+[STACK] CHECK CONDITION: NextToDock(E,D)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo2(D,E,B)
+[STACK] CHECK CONDITION: NextToFerry(A,D)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo1(A,D)
+[STACK] CHECK CONDITION: LastFerry(D)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastDock(A)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(A)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo1(A,D)
+[STACK] CHECK CONDITION: FirstFerry(F)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardFirst1(F)
+[STACK] CHECK CONDITION: LastDock(F)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(F)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: ChangeToEmptyLine(E,F)
+[STACK] CHECK CONDITION: NextToDock(F,E)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(E)
+Condition satisfied.
+[STACK] CHECK CONDITION: ExistsEmptyLine()
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator ChangeToEmptyLine(E,F)
+[STACK] APPLY OPERATOR TO STATE: Operator BoardFirst1(F)
+[STACK] CHECK CONDITION: NextToFerry(E,F)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo1(E,F)
+[STACK] CHECK CONDITION: LastFerry(F)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastDock(E)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(E)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo1(E,F)
+[STACK] CHECK CONDITION: NextToFerry(C,E)
+Condition NOT satisfied.
+[STACK] PUSH OPERATOR AND PRECONDITIONS: BoardNextTo1(C,E)
+[STACK] CHECK CONDITION: LastFerry(E)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastDock(C)
+Condition satisfied.
+[STACK] CHECK CONDITION: FirstDock(C)
+Condition satisfied.
+[STACK] APPLY OPERATOR TO STATE: Operator BoardNextTo1(C,E)
+[STACK] CHECK CONDITION: LastFerry(A)
+Condition satisfied.
+[STACK] CHECK CONDITION: LastFerry(C)
+Condition satisfied.
+Algorithm has finished! Found plan with 7 operators.
+Plan: BoardFirst2(B,C),BoardNextTo2(D,E,B),BoardNextTo1(A,D),ChangeToEmptyLine(E,F),BoardFirst1(F),BoardNextTo1(E,F),BoardNextTo1(C,E)
+Successfully written output file.

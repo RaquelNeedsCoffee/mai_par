@@ -1,0 +1,2 @@
+11
+ChangeToEmptyLine(F,E),ChangeLine2(E,D,F),ChangeLine2(D,C,E),ChangeLine2(C,B,D),ChangeLine2(B,A,C),BoardFirst1(A),BoardNextTo2(B,C,A),BoardNextTo2(C,D,B),BoardNextTo2(D,E,C),BoardNextTo2(E,F,D),BoardNextTo1(F,E)
